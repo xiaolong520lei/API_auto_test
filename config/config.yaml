@@ -1,0 +1,30 @@
+# 发送邮件的SMTP登录信息
+user: &userinfo
+  name: some
+  age: 18
+email:
+  email_host: smtp.sohu.com
+  email_account: yyyyyyyyyyyyy@sohu.com
+  email_password: xxxxxxxxxx
+  <<:
+    *userinfo
+
+environment:
+  host:
+    product: xxxxxx
+    test: https://mrpa-test.ai-rtc.com:8082
+    per: fffffff
+
+account:
+      username: cladmin
+      password: fefd0cbad5de5ca3eddad355835b8312
+
+login_api: /plat/api/sys/login
+
+
+request_header:
+  {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }

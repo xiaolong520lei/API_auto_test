@@ -1,0 +1,22 @@
+robot_list_request_body:
+  query_execute_task_api: /plat/api/exeTask/queryExeTaskListByCon
+  query_execute_task_info_api: /plat/api/exeTask/detailTaskByExeTaskId
+  query_execute_task_log_api: /plat/api/exeTask/exeTaskLogList/
+
+
+
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+
+query_data_payload:
+  {
+    pageIndex: 1,
+    pageSize: 10,
+    name: "",
+    projectId: null,
+    state: ""
+  }

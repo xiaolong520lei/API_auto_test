@@ -1,0 +1,19 @@
+[2023-02-10 10:08:42,326]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+[2023-02-10 10:18:31,575]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 500, 结果为：200 
+[2023-02-10 10:22:02,714]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+[2023-02-10 10:32:38,197]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+[2023-02-10 10:59:43,932]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 500, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-10 10:59:45,593]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-10 11:00:42,989]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 500, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError

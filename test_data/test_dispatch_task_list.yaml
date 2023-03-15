@@ -1,0 +1,132 @@
+robot_list_request_body:
+  query_dispatch_task_api: /plat/api/task/queryDispatchTaskListByCon
+  owner_list_api: /plat/api/sys/user/ownerUserList
+  owner_robot_list_api: /plat/api/robot/ownerRobotList/
+  device_skill_list_api: /plat/api/robot/device/skill/list
+  skill_tree_robot_api: /plat/api/skill/skillTreeListByRobotId
+  save_dispatch_strategy_api: /plat/api/task/saveDispatchStrategy
+  save_dispatch_stask_api: /plat/api/task/saveDispatchTask
+  query_project_list_api: /plat/api/project/listNoPage
+  query_dispatch_task_info_api: /plat/api/task/queryDispatchTaskById
+  query_dispatch_task_log_api: /plat/api/task/dispatchTaskLogList/
+  delete_dispatch_task_api: /plat/api/task/deleteDispatchTask
+
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+query_data_payload:
+  {pageIndex: 1,
+   pageSize: 10,
+   name: "",
+   projectId: null,
+   state: ""
+  }
+
+skill_list_payload:
+  {
+    robotId: 274597733793797,
+    userId: 266782201937922
+  }
+
+save_dispatch_strategy_payload:
+  {
+    "type":"re_execution",
+    "checkedTime":false,
+    "timeOut":0,
+    "timeOutType":"seconds",
+    "countTimeOut":0,
+    "description":"",
+    "exeFrequency":"day",
+    "exeIntervalDay":1,
+    "intervalWeek":1,
+    "whichWeek":1,
+    "week":1,
+    "exeWeekTime":"MON",
+    "intervalMonth":1,
+    "startDayWeek":"start_day",
+    "everyDayInterval":"only_one_of_day",
+    "timePoint":"10:53:21",
+    "exeIntervalType":"hour",
+    "exeIntervalHour":1,
+    "exeIntervalStartTime":"01:00",
+    "exeIntervalEndTime":"23:00",
+    "startTime":"2023-03-02",
+    "endTime":"2099-12-31",
+    "noDate":"no_end_date",
+    "createId":"",
+    "firstStartTime":"2023-03-02 10:53:21",
+    "firstEndTime":'',
+    "planEndTime":"2099-12-31 10:53:21",
+    "newPlanStartTime":"2023-03-02 10:53:21"
+  }
+
+save_dispatch_task_payload:
+  {
+    "projectId":1091,
+   "name":"asdf",
+    "state":2,
+    "taskType":0,
+    "robotId":274597733793794,
+    "robotOwnerBid":266782201937922,
+    "skillId":274576873422850,
+    "skillVersionId":274577009737730,
+    "deviceId":241858108260353,
+    "strategyId":"",
+    "planStartTime":"2023-03-02 10:53:21",
+    "description":"",
+    "uploadUrl":"",
+    "msTimeDto":
+      {
+        "year":2023,
+        "month":"03",
+        "day":"02"
+      },
+    "strategy":
+      {
+        "type":"re_execution",
+        "checkedTime":false,
+        "timeOut":0,
+        "timeOutType":"seconds",
+        "countTimeOut":0,
+        "description":"",
+        "exeFrequency":"day",
+        "exeIntervalDay":1,
+        "intervalWeek":1,
+        "whichWeek":1,
+        "week":1,
+        "exeWeekTime":"MON",
+        "intervalMonth":1,
+        "startDayWeek":"start_day",
+        "everyDayInterval":"only_one_of_day",
+        "timePoint":"10:53:21",
+        "exeIntervalType":"hour",
+        "exeIntervalHour":1,
+        "exeIntervalStartTime":"01:00",
+        "exeIntervalEndTime":"23:00",
+        "startTime":"2023-03-02",
+        "endTime":"2099-12-31",
+        "noDate":"no_end_date",
+        "createId":"",
+        "firstStartTime":"2023-03-02 10:53:21",
+        "firstEndTime":'',
+        "planEndTime":"2099-12-31 10:53:21",
+        "newPlanStartTime":"2023-03-02 10:53:21"
+      },
+    "fileIdList":[]
+  }
+
+
+delete_dispatch_task_payload:
+    {
+      "id":1629410448397652000,
+     "bid":274760252588034,
+     "status":-1,
+     "taskId":0,
+     "taskName":"立即执行",
+     "dispatchTaskId":274760252588034,
+     "robotId":272554159833090,
+     "deviceId":256079332179969
+    }

@@ -1,0 +1,57 @@
+[2023-02-24 09:58:30,378]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 101, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-24 16:01:50,264]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 101, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-24 18:54:40,803]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 102, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-24 18:54:41,317]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 400, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-24 18:59:48,202]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 400, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-24 19:04:40,638]-[Request.py]-[line:27]-ERROR: GET请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/menu/permission/tree 出错! request() got an unexpected keyword argument 'pamars'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 19, in get_method
+    response = requests.get(url=url, params=params, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'pamars'
+[2023-02-24 19:19:30,528]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 验证不通过, 结果为：用户名或密码错误 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-24 19:19:32,136]-[Request.py]-[line:27]-ERROR: GET请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/menu/permission/tree 出错! request() got an unexpected keyword argument 'pamars'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 19, in get_method
+    response = requests.get(url=url, params=params, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'pamars'
+[2023-02-24 19:20:23,412]-[Request.py]-[line:27]-ERROR: GET请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/menu/permission/tree 出错! request() got an unexpected keyword argument 'pamars'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 19, in get_method
+    response = requests.get(url=url, params=params, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'pamars'

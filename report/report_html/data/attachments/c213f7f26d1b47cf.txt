@@ -1,0 +1,6 @@
+INFO     Log:test_login.py:93 开始测试：test_miss_slide_params
+INFO     Log:Request.py:35 POST请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+INFO     Log:Request.py:40 POST请求参数为：{'movePosX': 167, 'username': 'cladmin', 'password': '123423534'}
+INFO     Log:Request.py:43 POST接口返回数据为:{'code': 500, 'message': '滑块移动距离参数缺失', 'data': None, 'success': False}
+INFO     Log:Assert.py:15 断言成功----验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+INFO     Log:test_login.py:97 测试完成！

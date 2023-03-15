@@ -1,0 +1,35 @@
+# robot_list 接口
+robot_list_request_body:
+  api: /plat/api/robot/device/list
+  device_state_api: /plat/api/robot/update/device/state
+  device_info_api: /plat/api/robot/device/info
+  update_device_api: /plat/api/robot/device/update
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+test_payload:
+  {
+    size: 10,
+    current: 1,
+    name: '',
+    robotName: '',
+    state:
+  }
+
+update_device_info:
+  {
+    bid: 241826816655361,
+    description: null,
+    enterpriseId: 1142,
+    hostName: "DESKTOP-ASP2OKI/Wang Jian",
+    name: "DESKTOP-ASP2OKI/Wang Jian3"
+  }
+
+change_device_state:
+  {
+    state: -1,
+    bid: 241826816655361
+  }

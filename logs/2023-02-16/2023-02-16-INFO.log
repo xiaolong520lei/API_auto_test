@@ -1,0 +1,401 @@
+[2023-02-16 09:23:21,835]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:23:21,837]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:23:45,181]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:23:45,183]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:24:17,909]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:24:17,911]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:26:22,459]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:26:22,462]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:26:41,138]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:26:41,139]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:26:41,413]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:26:41,415]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:26:41,415]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:26:41,418]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:26:41,436]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:26:41,438]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:26:42,006]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:26:42,283]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:26:42,283]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-16 09:31:05,820]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:31:05,822]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:31:06,085]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:31:06,087]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:31:06,087]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:31:06,089]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:31:06,128]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:31:06,130]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:31:06,588]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:31:06,830]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:31:06,830]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-16 09:33:51,070]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:33:51,072]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:33:51,072]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:33:51,074]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:33:51,629]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:33:51,859]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:33:52,311]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:33:52,530]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:33:53,027]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:33:53,293]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:33:53,294]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 09:35:58,604]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:35:58,606]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:35:58,873]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:35:58,875]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:35:58,875]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:35:58,877]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:35:58,963]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:35:58,965]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:35:59,397]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:35:59,654]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:35:59,655]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 09:35:59,655]-[test_robot_list.py]-[line:40]-INFO: 开始测试：test_api_response
+[2023-02-16 09:35:59,655]-[test_robot_list.py]-[line:41]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list
+[2023-02-16 09:35:59,655]-[test_robot_list.py]-[line:42]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 09:35:59,894]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 09:35:59,894]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-16 09:37:49,378]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:37:49,380]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:37:49,642]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:37:49,644]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:37:49,644]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:37:49,647]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:37:49,689]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:37:49,691]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:37:50,187]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:37:50,415]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:37:50,416]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 09:37:50,416]-[test_robot_list.py]-[line:40]-INFO: 开始测试：test_api_response
+[2023-02-16 09:37:50,416]-[test_robot_list.py]-[line:41]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh', 'cookie': 'token.png=eyJhbGciOiJIUzUxMiJ9.eyJkZXBhcnRJZCI6IjExOTIiLCJlbnRlcnByaXNlSWQiOiIxMTQyIiwiZXhwIjoxNjc2NjkxNDI5LCJ1c2VySWQiOiIyNjY3ODIyMDE5Mzc5MjIiLCJsb2dpbl91c2VyX2tleSI6IjMyODQxNmQ0LTAxODctNGQ2My1iOTk5LWQzNjI4NGNlOGEzOSIsInVzZXJuYW1lIjoiY2xhZG1pbiJ9.3a5TcwWNlRM2kbVocaI13kx8MuE91WI3oQDW1axxA7UDCb1Enx75dy5Nux59ww7fHyyCJbrSZ0fMMIRp0nhBnQ; vue_admin_template_token=cladmin'}
+[2023-02-16 09:37:50,416]-[test_robot_list.py]-[line:42]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 09:37:50,645]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 09:37:50,646]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-16 09:39:44,149]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:39:44,151]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:39:44,416]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:39:44,418]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:39:44,418]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:39:44,421]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:39:44,460]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:39:44,463]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:39:45,055]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:39:45,296]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:39:45,296]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 09:39:45,296]-[test_robot_list.py]-[line:40]-INFO: 开始测试：test_api_response
+[2023-02-16 09:39:45,297]-[test_robot_list.py]-[line:41]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Cookie': 'token.png=eyJhbGciOiJIUzUxMiJ9.eyJkZXBhcnRJZCI6IjExOTIiLCJlbnRlcnByaXNlSWQiOiIxMTQyIiwiZXhwIjoxNjc2NjkxNTQ0LCJ1c2VySWQiOiIyNjY3ODIyMDE5Mzc5MjIiLCJsb2dpbl91c2VyX2tleSI6IjAxZWYwMjJjLWMyMTYtNGY0ZS1hOTA2LWNlYmEzYzU4N2ViYyIsInVzZXJuYW1lIjoiY2xhZG1pbiJ9.DyRu4VxE43YIjKUD1btrySoeKUjj46NVQEaKVHr4qNX0XgH44hJGrej5X3RtpMmDE-oIwrbBCc9NGN022siHmg; vue_admin_template_token=cladmin'}
+[2023-02-16 09:39:45,297]-[test_robot_list.py]-[line:42]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 09:39:45,524]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 09:39:45,524]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-16 09:40:30,683]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:40:30,685]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:40:30,976]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:40:30,978]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:40:30,978]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:40:30,980]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:40:31,018]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:40:31,021]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:40:31,444]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:40:31,690]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:40:31,691]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 09:40:31,691]-[test_robot_list.py]-[line:40]-INFO: 开始测试：test_api_response
+[2023-02-16 09:40:31,691]-[test_robot_list.py]-[line:41]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Cookie': 'token.png=eyJhbGciOiJIUzUxMiJ9.eyJkZXBhcnRJZCI6IjExOTIiLCJlbnRlcnByaXNlSWQiOiIxMTQyIiwiZXhwIjoxNjc2NjkxNTkxLCJ1c2VySWQiOiIyNjY3ODIyMDE5Mzc5MjIiLCJsb2dpbl91c2VyX2tleSI6ImI4NGI1OWU1LTE4MzgtNDVhMi1hMzYzLTVkNWNmNzVhNGQzMCIsInVzZXJuYW1lIjoiY2xhZG1pbiJ9.H-w9WjmpNGXDCHGYszZyGpM_kR78AUwP9f2ysoZkA7L54TFdoewtnDT74KK7zk5Q2cKW3ZCiPJkmQ1RI0tmd_Q; vue_admin_template_token=cladmin'}
+[2023-02-16 09:40:31,691]-[test_robot_list.py]-[line:42]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 09:40:31,901]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 09:40:31,901]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-16 09:41:05,943]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:41:05,945]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:41:06,207]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:41:06,209]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:41:06,210]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:41:06,212]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:41:06,259]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 09:41:06,261]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 09:41:06,803]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 09:41:07,038]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 09:41:07,038]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 09:41:07,039]-[test_robot_list.py]-[line:40]-INFO: 开始测试：test_api_response
+[2023-02-16 09:41:07,039]-[test_robot_list.py]-[line:41]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Cookie': 'token.png=eyJhbGciOiJIUzUxMiJ9.eyJkZXBhcnRJZCI6IjExOTIiLCJlbnRlcnByaXNlSWQiOiIxMTQyIiwiZXhwIjoxNjc2NjkxNjI2LCJ1c2VySWQiOiIyNjY3ODIyMDE5Mzc5MjIiLCJsb2dpbl91c2VyX2tleSI6ImJiMmQ5ODY2LWVhMDctNGE5ZC05NjBiLTJiYTllNWM0ZmU1YiIsInVzZXJuYW1lIjoiY2xhZG1pbiJ9.IW9WCQZEpXf32sqNizngHDcrTWRtOAQzqClSQXquChXIcmsrFD1pFFBvacdAouM_aCZMzibP4sPkSyXc--b_hA; vue_admin_template_token=cladmin'}
+[2023-02-16 09:41:07,039]-[test_robot_list.py]-[line:42]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 09:41:07,245]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 09:41:07,245]-[test_robot_list.py]-[line:44]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-16 09:41:07,245]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-16 15:16:30,110]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:16:30,112]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:16:30,382]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 15:17:38,730]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:17:38,732]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:17:38,995]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:17:38,997]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:17:38,998]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:17:39,001]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:17:39,290]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:17:39,292]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:17:39,732]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 15:17:39,968]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 15:17:39,969]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 15:17:39,969]-[test_robot_list.py]-[line:40]-INFO: 开始测试：test_api_response
+[2023-02-16 15:17:39,969]-[test_robot_list.py]-[line:41]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Cookie': 'token.png=eyJhbGciOiJIUzUxMiJ9.eyJkZXBhcnRJZCI6IjExOTIiLCJlbnRlcnByaXNlSWQiOiIxMTQyIiwiZXhwIjoxNjc2NzExODE5LCJ1c2VySWQiOiIyNjY3ODIyMDE5Mzc5MjIiLCJsb2dpbl91c2VyX2tleSI6ImQyZmM2YmYwLWQyNGQtNDg0My1hZDQ1LWIzYzcyYzBjNzUxOCIsInVzZXJuYW1lIjoiY2xhZG1pbiJ9.gmFegYr9AQTTj6aZHb2Ho_GE1zQq0H4Nvulxlyx55xunyu889RSlhYHGe5JHAJ0sK0okEWQfEiXWQyMooRW6dw; vue_admin_template_token=cladmin'}
+[2023-02-16 15:17:39,969]-[test_robot_list.py]-[line:42]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 15:17:40,249]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 15:17:40,250]-[test_robot_list.py]-[line:44]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-16 15:17:40,250]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-16 15:24:00,998]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:24:01,000]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:24:01,264]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:24:01,266]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:24:01,266]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:24:01,268]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:24:01,288]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:24:01,290]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:24:01,773]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 15:24:01,990]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 15:24:01,990]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 15:24:01,990]-[test_robot_list.py]-[line:40]-INFO: 开始测试：test_api_response
+[2023-02-16 15:24:01,991]-[test_robot_list.py]-[line:41]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh; token.png=eyJhbGciOiJIUzUxMiJ9.eyJkZXBhcnRJZCI6IjExOTIiLCJlbnRlcnByaXNlSWQiOiIxMTQyIiwiZXhwIjoxNjc2NzEyMjAxLCJ1c2VySWQiOiIyNjY3ODIyMDE5Mzc5MjIiLCJsb2dpbl91c2VyX2tleSI6IjBmODNjOGM1LWM5YjctNGY0YS1iMmY1LWVmNmJlZWQwYTFkZCIsInVzZXJuYW1lIjoiY2xhZG1pbiJ9.cExm-qgOnc-mjmZOV6Ihb_qGTLRmsIQ-A6xqzA0w6_9m_IF_dCc-tJr8HO-Ztc3m2jmCTsNHZs5Kz0pziRgwzw; vue_admin_template_token=cladmin'}
+[2023-02-16 15:24:01,991]-[test_robot_list.py]-[line:42]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 15:24:02,184]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 15:24:02,184]-[test_robot_list.py]-[line:44]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-16 15:24:02,184]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-16 15:33:11,573]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:33:11,575]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:33:11,837]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:33:11,839]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:33:11,839]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:33:11,841]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:33:11,890]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:33:11,892]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:33:13,053]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 15:33:13,340]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 15:33:13,340]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 15:33:13,340]-[test_robot_list.py]-[line:40]-INFO: 开始测试：test_api_response
+[2023-02-16 15:33:13,340]-[test_robot_list.py]-[line:41]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh; token.png=eyJhbGciOiJIUzUxMiJ9.eyJkZXBhcnRJZCI6IjExOTIiLCJlbnRlcnByaXNlSWQiOiIxMTQyIiwiZXhwIjoxNjc2NzEyNzUyLCJ1c2VySWQiOiIyNjY3ODIyMDE5Mzc5MjIiLCJsb2dpbl91c2VyX2tleSI6IjU2MjIzMzI3LWJlZTktNDJkYi04MzI1LWFmZDU4M2ZhMTc1ZCIsInVzZXJuYW1lIjoiY2xhZG1pbiJ9.Vusni6Xcr27QrQnlRFP04fpcFBnHF8xqzStqL_H0fpDPKk3umr0ZiWlC0pALcf9WAjKYaO6xhE9fQ_Doub-zVA; vue_admin_template_token=cladmin'}
+[2023-02-16 15:33:13,341]-[test_robot_list.py]-[line:42]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 15:33:13,558]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 15:33:13,559]-[test_robot_list.py]-[line:44]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-16 15:33:13,559]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-16 15:34:59,944]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:34:59,946]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:35:00,209]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:35:00,211]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:35:00,211]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:35:00,213]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:35:00,230]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:35:09,102]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:35:09,103]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:35:09,365]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:35:09,367]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:35:09,367]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:35:09,370]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:35:09,387]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:35:09,389]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:35:10,039]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 15:35:10,324]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 15:35:10,324]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 15:35:10,324]-[test_robot_list.py]-[line:40]-INFO: 开始测试：test_api_response
+[2023-02-16 15:35:10,325]-[test_robot_list.py]-[line:41]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh; token.png=eyJhbGciOiJIUzUxMiJ9.eyJkZXBhcnRJZCI6IjExOTIiLCJlbnRlcnByaXNlSWQiOiIxMTQyIiwiZXhwIjoxNjc2NzEyODY5LCJ1c2VySWQiOiIyNjY3ODIyMDE5Mzc5MjIiLCJsb2dpbl91c2VyX2tleSI6ImZiMjJiOTM3LTRkNDItNGE3Ni1hMWY0LTBiZmE3NTIxN2Y2MiIsInVzZXJuYW1lIjoiY2xhZG1pbiJ9.p2n1PdXuZOtvNYrZkqMbgSuHIkdVOwvrC4xDFSC4dx6Nxu-xNLKEwN9dL9sWNkiwBZyy_sv4pBqZjK4Ce1Ln_g; vue_admin_template_token=cladmin'}
+[2023-02-16 15:35:10,325]-[test_robot_list.py]-[line:42]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 15:35:10,557]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 15:35:10,557]-[test_robot_list.py]-[line:44]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-16 15:35:10,557]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-16 15:36:36,144]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:36:36,146]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:36:36,390]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 15:37:29,671]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 15:37:29,673]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 15:37:29,969]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 16:50:48,530]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:50:48,532]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:50:48,661]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:50:48,664]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:50:49,119]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:50:49,358]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:50:49,813]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:50:50,098]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:50:50,099]-[Login.py]-[line:36]-INFO: 获取cookie成功！
+[2023-02-16 16:50:50,099]-[Request.py]-[line:68]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'}
+[2023-02-16 16:50:50,099]-[Request.py]-[line:69]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:50:50,307]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 16:50:50,307]-[Request.py]-[line:71]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-16 16:52:29,964]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:52:29,966]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:52:30,096]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:52:30,098]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:52:30,505]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:52:30,706]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:52:31,139]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:52:31,375]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:52:31,375]-[Request.py]-[line:68]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'}
+[2023-02-16 16:52:31,376]-[Request.py]-[line:69]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:52:31,593]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 16:52:31,593]-[Request.py]-[line:71]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-16 16:53:34,647]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:53:34,648]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:53:34,777]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:53:34,779]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:53:35,190]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:53:35,391]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:53:35,860]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:53:36,066]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:53:36,480]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:53:36,709]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:53:36,709]-[Request.py]-[line:69]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'}
+[2023-02-16 16:53:36,709]-[Request.py]-[line:70]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:53:36,906]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 16:53:36,906]-[Request.py]-[line:72]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-16 16:54:09,376]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:54:09,378]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:54:09,506]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:54:09,508]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:54:10,950]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:54:11,168]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:54:11,861]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:54:12,125]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:54:12,125]-[Request.py]-[line:69]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'}
+[2023-02-16 16:54:12,125]-[Request.py]-[line:70]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:54:12,126]-[Request.py]-[line:33]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list出错! request() got an unexpected keyword argument 'cookie'
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/API_auto_test/common/Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'cookie'
+[2023-02-16 16:55:41,004]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:55:41,006]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:55:41,136]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:55:41,139]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:55:41,584]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:55:41,828]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:55:41,828]-[Request.py]-[line:69]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'}
+[2023-02-16 16:55:41,828]-[Request.py]-[line:70]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:55:42,105]-[Request.py]-[line:73]-INFO: {'code': 200, 'message': 'success', 'data': {'records': [{'id': 70, 'bid': 272554159833090, 'name': 'wang', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'PDJJ4NQSZAMI', 'description': None, 'registerCode': '3GLMLRS0', 'avatar': None, 'qrCode': None, 'creator': {'id': 59, 'bid': 270778580926466, 'name': 'wang'}, 'createTime': 1676264751000, 'updateTime': 1676264767000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 69, 'bid': 270179743367170, 'name': 'CLrobot私人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'kevin', 'apiKey': 'ZHKWEACPODBN', 'description': None, 'registerCode': 'J7JYOOYI', 'avatar': None, 'qrCode': None, 'creator': {'id': 55, 'bid': 266782201937922, 'name': 'kevin'}, 'createTime': 1675132541000, 'updateTime': 1675219622000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 68, 'bid': 267644378873858, 'name': 'litongzhi09', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': '2KEXPGDGU7GL', 'description': None, 'registerCode': 'I2MNU2YR', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923585000, 'updateTime': 1674872752000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 67, 'bid': 267644322250754, 'name': 'tongzhi01', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'NSN0TAXHJP6X', 'description': None, 'registerCode': 'X1LJ5TAJ', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923558000, 'updateTime': 1675231776000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 66, 'bid': 265859427794946, 'name': '资源市场002', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': '23B55ZEL', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072454000, 'updateTime': 1673072454000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 65, 'bid': 265859408920578, 'name': '资源市场09', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': 'LHWRQ635', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072445000, 'updateTime': 1673072445000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 64, 'bid': 265859094347778, 'name': '技能权限001', 'professionId': None, 'useScope': None, 'useScopeType': 2, 'specificUseScope': '智能rpa部门/测试部/测试一部', 'apiKey': 'WKB9NI5LO13C', 'description': None, 'registerCode': 'SY5DA7M3', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072295000, 'updateTime': 1673072305000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 62, 'bid': 265689724157954, 'name': 'W20230106', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'MFQN30BGH2CP', 'description': None, 'registerCode': 'NRW5FMI4', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1672991533000, 'updateTime': 1675735814000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 61, 'bid': 265531401764866, 'name': '文档01', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'WPOVCCBTZL4G', 'description': None, 'registerCode': 'KPN74K6Y', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672916039000, 'updateTime': 1675407190000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 60, 'bid': 265524820901890, 'name': '文档机器人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'E4WKD3Z28NGG', 'description': None, 'registerCode': 'WJOE0RL8', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672912901000, 'updateTime': 1675407204000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}], 'total': 54, 'size': 10, 'current': 0, 'orders': [], 'searchCount': True, 'pages': 6}, 'success': True}
+[2023-02-16 16:56:07,962]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:56:07,964]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:56:08,094]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:56:08,096]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:56:08,544]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:56:08,787]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:56:08,788]-[Request.py]-[line:69]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'}
+[2023-02-16 16:56:08,788]-[Request.py]-[line:70]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:56:08,788]-[Request.py]-[line:33]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list出错! request() got an unexpected keyword argument 'cookie'
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/API_auto_test/common/Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'cookie'
+[2023-02-16 16:56:13,767]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:56:13,769]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:56:13,900]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:56:13,902]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:56:16,231]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:56:16,467]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:56:16,467]-[Request.py]-[line:69]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'}
+[2023-02-16 16:56:16,467]-[Request.py]-[line:70]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:56:16,676]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 16:56:16,677]-[Request.py]-[line:73]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-16 16:56:28,959]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:56:28,961]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:56:29,089]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:56:29,091]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:56:29,608]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:56:31,996]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:56:31,997]-[Request.py]-[line:69]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'}
+[2023-02-16 16:56:31,997]-[Request.py]-[line:70]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:56:32,320]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 16:56:32,320]-[Request.py]-[line:73]-INFO: {'code': 200, 'message': 'success', 'data': {'records': [{'id': 70, 'bid': 272554159833090, 'name': 'wang', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'PDJJ4NQSZAMI', 'description': None, 'registerCode': '3GLMLRS0', 'avatar': None, 'qrCode': None, 'creator': {'id': 59, 'bid': 270778580926466, 'name': 'wang'}, 'createTime': 1676264751000, 'updateTime': 1676264767000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 69, 'bid': 270179743367170, 'name': 'CLrobot私人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'kevin', 'apiKey': 'ZHKWEACPODBN', 'description': None, 'registerCode': 'J7JYOOYI', 'avatar': None, 'qrCode': None, 'creator': {'id': 55, 'bid': 266782201937922, 'name': 'kevin'}, 'createTime': 1675132541000, 'updateTime': 1675219622000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 68, 'bid': 267644378873858, 'name': 'litongzhi09', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': '2KEXPGDGU7GL', 'description': None, 'registerCode': 'I2MNU2YR', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923585000, 'updateTime': 1674872752000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 67, 'bid': 267644322250754, 'name': 'tongzhi01', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'NSN0TAXHJP6X', 'description': None, 'registerCode': 'X1LJ5TAJ', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923558000, 'updateTime': 1675231776000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 66, 'bid': 265859427794946, 'name': '资源市场002', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': '23B55ZEL', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072454000, 'updateTime': 1673072454000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 65, 'bid': 265859408920578, 'name': '资源市场09', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': 'LHWRQ635', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072445000, 'updateTime': 1673072445000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 64, 'bid': 265859094347778, 'name': '技能权限001', 'professionId': None, 'useScope': None, 'useScopeType': 2, 'specificUseScope': '智能rpa部门/测试部/测试一部', 'apiKey': 'WKB9NI5LO13C', 'description': None, 'registerCode': 'SY5DA7M3', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072295000, 'updateTime': 1673072305000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 62, 'bid': 265689724157954, 'name': 'W20230106', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'MFQN30BGH2CP', 'description': None, 'registerCode': 'NRW5FMI4', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1672991533000, 'updateTime': 1675735814000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 61, 'bid': 265531401764866, 'name': '文档01', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'WPOVCCBTZL4G', 'description': None, 'registerCode': 'KPN74K6Y', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672916039000, 'updateTime': 1675407190000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 60, 'bid': 265524820901890, 'name': '文档机器人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'E4WKD3Z28NGG', 'description': None, 'registerCode': 'WJOE0RL8', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672912901000, 'updateTime': 1675407204000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}], 'total': 54, 'size': 10, 'current': 0, 'orders': [], 'searchCount': True, 'pages': 6}, 'success': True}
+[2023-02-16 16:57:53,349]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:57:53,351]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:57:53,482]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:57:53,484]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:57:53,917]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:57:54,122]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:57:54,520]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:57:54,749]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:57:54,749]-[Request.py]-[line:69]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Connection': 'keep-alive', 'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'}
+[2023-02-16 16:57:54,749]-[Request.py]-[line:70]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:57:55,005]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 16:57:55,005]-[Request.py]-[line:73]-INFO: {'code': 200, 'message': 'success', 'data': {'records': [{'id': 70, 'bid': 272554159833090, 'name': 'wang', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'PDJJ4NQSZAMI', 'description': None, 'registerCode': '3GLMLRS0', 'avatar': None, 'qrCode': None, 'creator': {'id': 59, 'bid': 270778580926466, 'name': 'wang'}, 'createTime': 1676264751000, 'updateTime': 1676264767000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 69, 'bid': 270179743367170, 'name': 'CLrobot私人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'kevin', 'apiKey': 'ZHKWEACPODBN', 'description': None, 'registerCode': 'J7JYOOYI', 'avatar': None, 'qrCode': None, 'creator': {'id': 55, 'bid': 266782201937922, 'name': 'kevin'}, 'createTime': 1675132541000, 'updateTime': 1675219622000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 68, 'bid': 267644378873858, 'name': 'litongzhi09', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': '2KEXPGDGU7GL', 'description': None, 'registerCode': 'I2MNU2YR', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923585000, 'updateTime': 1674872752000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 67, 'bid': 267644322250754, 'name': 'tongzhi01', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'NSN0TAXHJP6X', 'description': None, 'registerCode': 'X1LJ5TAJ', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923558000, 'updateTime': 1675231776000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 66, 'bid': 265859427794946, 'name': '资源市场002', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': '23B55ZEL', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072454000, 'updateTime': 1673072454000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 65, 'bid': 265859408920578, 'name': '资源市场09', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': 'LHWRQ635', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072445000, 'updateTime': 1673072445000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 64, 'bid': 265859094347778, 'name': '技能权限001', 'professionId': None, 'useScope': None, 'useScopeType': 2, 'specificUseScope': '智能rpa部门/测试部/测试一部', 'apiKey': 'WKB9NI5LO13C', 'description': None, 'registerCode': 'SY5DA7M3', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072295000, 'updateTime': 1673072305000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 62, 'bid': 265689724157954, 'name': 'W20230106', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'MFQN30BGH2CP', 'description': None, 'registerCode': 'NRW5FMI4', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1672991533000, 'updateTime': 1675735814000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 61, 'bid': 265531401764866, 'name': '文档01', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'WPOVCCBTZL4G', 'description': None, 'registerCode': 'KPN74K6Y', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672916039000, 'updateTime': 1675407190000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 60, 'bid': 265524820901890, 'name': '文档机器人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'E4WKD3Z28NGG', 'description': None, 'registerCode': 'WJOE0RL8', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672912901000, 'updateTime': 1675407204000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}], 'total': 54, 'size': 10, 'current': 0, 'orders': [], 'searchCount': True, 'pages': 6}, 'success': True}
+[2023-02-16 16:58:01,256]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:58:01,258]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:58:01,379]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:58:01,380]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:58:01,524]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:58:01,527]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:58:01,589]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:58:01,591]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:58:02,012]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:58:02,230]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:58:02,230]-[test_robot_list.py]-[line:39]-INFO: 开始测试：test_api_response
+[2023-02-16 16:58:43,598]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:58:43,600]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:58:43,721]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:58:43,723]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:58:43,863]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:58:43,866]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:58:43,918]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 16:58:43,921]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 16:58:44,361]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:58:44,565]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:58:44,966]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 16:58:45,196]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 16:58:45,196]-[test_robot_list.py]-[line:39]-INFO: 开始测试：test_api_response
+[2023-02-16 16:58:45,196]-[test_robot_list.py]-[line:40]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list
+[2023-02-16 16:58:45,196]-[test_robot_list.py]-[line:41]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 16:58:45,442]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 16:58:45,442]-[test_robot_list.py]-[line:43]-INFO: {'code': 200, 'message': 'success', 'data': {'records': [{'id': 70, 'bid': 272554159833090, 'name': 'wang', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'PDJJ4NQSZAMI', 'description': None, 'registerCode': '3GLMLRS0', 'avatar': None, 'qrCode': None, 'creator': {'id': 59, 'bid': 270778580926466, 'name': 'wang'}, 'createTime': 1676264751000, 'updateTime': 1676264767000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 69, 'bid': 270179743367170, 'name': 'CLrobot私人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'kevin', 'apiKey': 'ZHKWEACPODBN', 'description': None, 'registerCode': 'J7JYOOYI', 'avatar': None, 'qrCode': None, 'creator': {'id': 55, 'bid': 266782201937922, 'name': 'kevin'}, 'createTime': 1675132541000, 'updateTime': 1675219622000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 68, 'bid': 267644378873858, 'name': 'litongzhi09', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': '2KEXPGDGU7GL', 'description': None, 'registerCode': 'I2MNU2YR', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923585000, 'updateTime': 1674872752000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 67, 'bid': 267644322250754, 'name': 'tongzhi01', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'NSN0TAXHJP6X', 'description': None, 'registerCode': 'X1LJ5TAJ', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923558000, 'updateTime': 1675231776000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 66, 'bid': 265859427794946, 'name': '资源市场002', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': '23B55ZEL', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072454000, 'updateTime': 1673072454000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 65, 'bid': 265859408920578, 'name': '资源市场09', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': 'LHWRQ635', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072445000, 'updateTime': 1673072445000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 64, 'bid': 265859094347778, 'name': '技能权限001', 'professionId': None, 'useScope': None, 'useScopeType': 2, 'specificUseScope': '智能rpa部门/测试部/测试一部', 'apiKey': 'WKB9NI5LO13C', 'description': None, 'registerCode': 'SY5DA7M3', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072295000, 'updateTime': 1673072305000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 62, 'bid': 265689724157954, 'name': 'W20230106', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'MFQN30BGH2CP', 'description': None, 'registerCode': 'NRW5FMI4', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1672991533000, 'updateTime': 1675735814000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 61, 'bid': 265531401764866, 'name': '文档01', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'WPOVCCBTZL4G', 'description': None, 'registerCode': 'KPN74K6Y', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672916039000, 'updateTime': 1675407190000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 60, 'bid': 265524820901890, 'name': '文档机器人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'E4WKD3Z28NGG', 'description': None, 'registerCode': 'WJOE0RL8', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672912901000, 'updateTime': 1675407204000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}], 'total': 54, 'size': 10, 'current': 0, 'orders': [], 'searchCount': True, 'pages': 6}, 'success': True}
+[2023-02-16 16:58:45,446]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-16 17:05:42,091]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 17:05:42,093]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 17:05:42,238]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 17:05:42,241]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 17:05:42,274]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-16 17:05:42,277]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-16 17:05:42,795]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-16 17:05:43,020]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-16 17:05:43,020]-[test_robot_list.py]-[line:37]-INFO: 开始测试：test_api_response
+[2023-02-16 17:05:43,021]-[test_robot_list.py]-[line:38]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list
+[2023-02-16 17:05:43,021]-[test_robot_list.py]-[line:39]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-16 17:05:43,300]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-16 17:05:43,301]-[test_robot_list.py]-[line:41]-INFO: {'code': 200, 'message': 'success', 'data': {'records': [{'id': 70, 'bid': 272554159833090, 'name': 'wang', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'PDJJ4NQSZAMI', 'description': None, 'registerCode': '3GLMLRS0', 'avatar': None, 'qrCode': None, 'creator': {'id': 59, 'bid': 270778580926466, 'name': 'wang'}, 'createTime': 1676264751000, 'updateTime': 1676264767000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 69, 'bid': 270179743367170, 'name': 'CLrobot私人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'kevin', 'apiKey': 'ZHKWEACPODBN', 'description': None, 'registerCode': 'J7JYOOYI', 'avatar': None, 'qrCode': None, 'creator': {'id': 55, 'bid': 266782201937922, 'name': 'kevin'}, 'createTime': 1675132541000, 'updateTime': 1675219622000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 68, 'bid': 267644378873858, 'name': 'litongzhi09', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': '2KEXPGDGU7GL', 'description': None, 'registerCode': 'I2MNU2YR', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923585000, 'updateTime': 1674872752000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 67, 'bid': 267644322250754, 'name': 'tongzhi01', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'NSN0TAXHJP6X', 'description': None, 'registerCode': 'X1LJ5TAJ', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923558000, 'updateTime': 1675231776000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 66, 'bid': 265859427794946, 'name': '资源市场002', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': '23B55ZEL', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072454000, 'updateTime': 1673072454000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 65, 'bid': 265859408920578, 'name': '资源市场09', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': 'LHWRQ635', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072445000, 'updateTime': 1673072445000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 64, 'bid': 265859094347778, 'name': '技能权限001', 'professionId': None, 'useScope': None, 'useScopeType': 2, 'specificUseScope': '智能rpa部门/测试部/测试一部', 'apiKey': 'WKB9NI5LO13C', 'description': None, 'registerCode': 'SY5DA7M3', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072295000, 'updateTime': 1673072305000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 62, 'bid': 265689724157954, 'name': 'W20230106', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'MFQN30BGH2CP', 'description': None, 'registerCode': 'NRW5FMI4', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1672991533000, 'updateTime': 1675735814000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 61, 'bid': 265531401764866, 'name': '文档01', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'WPOVCCBTZL4G', 'description': None, 'registerCode': 'KPN74K6Y', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672916039000, 'updateTime': 1675407190000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 60, 'bid': 265524820901890, 'name': '文档机器人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'E4WKD3Z28NGG', 'description': None, 'registerCode': 'WJOE0RL8', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672912901000, 'updateTime': 1675407204000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}], 'total': 54, 'size': 10, 'current': 0, 'orders': [], 'searchCount': True, 'pages': 6}, 'success': True}
+[2023-02-16 17:05:43,302]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 

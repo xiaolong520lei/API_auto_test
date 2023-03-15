@@ -1,0 +1,6 @@
+WARNING  Log:test_project.py:52 开始测试：test_create_project
+INFO     Log:Request.py:35 POST请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/project/save 成功!
+INFO     Log:Request.py:40 POST请求参数为：{'planEndTime': '2023-03-06 19:04:41', 'planStartTime': '2023-02-24 19:04:41', 'projectDesc': 'auto test', 'projectName': 'auto_test_project5348', 'projectNum': ''}
+INFO     Log:Request.py:43 POST接口返回数据为:{'code': 200, 'message': 'success', 'data': '保存成功', 'success': True}
+INFO     Log:Assert.py:15 断言成功----验证值为： 200, 结果为：200 
+INFO     Log:test_project.py:60 测试完成！

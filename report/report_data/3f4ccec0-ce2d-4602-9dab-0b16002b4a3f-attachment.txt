@@ -1,0 +1,6 @@
+WARNING  Log:test_worktop.py:81 开始测试：test_query_execute_task_month
+INFO     Log:Request.py:35 POST请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/report/work/sumExecuteMonthTask 成功!
+INFO     Log:Request.py:42 POST请求参数为：{'year': 2023, 'month': None, 'day': None, 'hour': None}
+INFO     Log:Request.py:43 POST接口返回数据为:{'code': 200, 'message': 'success', 'data': {'x': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 'y': [5210, 1131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'success': True}
+INFO     Log:Assert.py:15 断言成功----验证值为： 200, 结果为：200 
+INFO     Log:test_worktop.py:85 测试完成！

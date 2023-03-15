@@ -1,0 +1,120 @@
+[2023-02-27 15:12:06,334]-[readConfig.py]-[line:28]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 22, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\test_data\\login_test_data.yaml'
+[2023-02-27 18:51:47,214]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 400, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-27 18:53:34,938]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-27 19:29:17,324]-[Request.py]-[line:27]-ERROR: GET请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/ownerRobotList/[266782201937922] 出错! [Errno Expecting value] <!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1></body></html>: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 25, in get_method
+    log.info(f'GET接口返回数据为:{response.json()}')
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Expecting value] <!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1></body></html>: 0
+[2023-02-27 19:39:52,567]-[Request.py]-[line:45]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/task/saveDispatchTask出错! Object of type Response is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 34, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 473, in prepare_body
+    body = complexjson.dumps(json, allow_nan=False)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Response is not JSON serializable
+[2023-02-27 19:43:43,675]-[Request.py]-[line:45]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/task/saveDispatchTask出错! Object of type Response is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 34, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 473, in prepare_body
+    body = complexjson.dumps(json, allow_nan=False)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Response is not JSON serializable
+[2023-02-27 19:45:52,960]-[Request.py]-[line:45]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/task/saveDispatchTask出错! Object of type Response is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 34, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 473, in prepare_body
+    body = complexjson.dumps(json, allow_nan=False)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Response is not JSON serializable
+[2023-02-27 19:52:55,850]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 104, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-27 20:05:37,583]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 104, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError

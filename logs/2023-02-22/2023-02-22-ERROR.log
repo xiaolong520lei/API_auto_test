@@ -1,0 +1,35 @@
+[2023-02-22 10:34:10,410]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 10101, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-22 10:35:46,855]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 400, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-22 11:36:10,348]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 9002, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-22 15:07:23,403]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 9002, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-22 15:42:49,228]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-22 15:46:57,506]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 9002, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-22 18:17:30,957]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError

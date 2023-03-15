@@ -1,0 +1,6 @@
+WARNING  Log:test_skill_list.py:61 开始测试：test_create_skill
+INFO     Log:Request.py:35 POST请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/skill/saveOrUpdate 成功!
+INFO     Log:Request.py:42 POST请求参数为：{'bid': None, 'name': 'auto_test_skill2688', 'useScope': 0, 'useScopeType': 0, 'classifyId': 2, 'skillType': 3, 'description': None, 'state': None}
+INFO     Log:Request.py:43 POST接口返回数据为:{'code': 200, 'message': 'success', 'data': '新增成功', 'success': True}
+INFO     Log:Assert.py:15 断言成功----验证值为： 200, 结果为：200 
+INFO     Log:test_skill_list.py:65 测试完成！

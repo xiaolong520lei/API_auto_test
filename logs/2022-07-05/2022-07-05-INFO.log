@@ -1,0 +1,31 @@
+2022-07-05 19:08:42,855 - Request.py - [line:14] - INFO - [日志信息]: eee
+2022-07-05 19:11:08,949 - count_word.py - [line:16] - INFO - [日志信息]: Char: 0 number: 4 space: 0 other: 0
+2022-07-05 19:30:57,236 - Log.py - [line:154] - INFO - [日志信息]: test info
+2022-07-05 19:30:57,237 - Log.py - [line:155] - DEBUG - [日志信息]: test debug
+2022-07-05 19:30:57,237 - Log.py - [line:156] - CRITICAL - [日志信息]: test critical
+2022-07-05 19:30:57,237 - Log.py - [line:157] - ERROR - [日志信息]: test error
+NoneType: None
+2022-07-05 19:30:57,238 - Log.py - [line:158] - WARNING - [日志信息]: test warning
+2022-07-05 19:34:15,948 - Log.py - [line:154] - INFO - [日志信息]: test info
+2022-07-05 19:34:15,949 - Log.py - [line:155] - DEBUG - [日志信息]: test debug
+2022-07-05 19:34:15,949 - Log.py - [line:156] - CRITICAL - [日志信息]: test critical
+2022-07-05 19:34:15,949 - Log.py - [line:157] - ERROR - [日志信息]: test error
+NoneType: None
+2022-07-05 19:34:15,950 - Log.py - [line:158] - WARNING - [日志信息]: test warning
+2022-07-05 20:07:59,966 - Log.py - [line:155] - INFO - [日志信息]: test info
+2022-07-05 20:07:59,966 - Log.py - [line:156] - DEBUG - [日志信息]: test debug
+2022-07-05 20:07:59,966 - Log.py - [line:157] - CRITICAL - [日志信息]: test critical
+2022-07-05 20:07:59,967 - Log.py - [line:158] - ERROR - [日志信息]: test error
+NoneType: None
+2022-07-05 20:07:59,967 - Log.py - [line:159] - WARNING - [日志信息]: test warning
+2022-07-05 20:09:04,261 - Log.py - [line:155] - INFO - [日志信息]: test info
+2022-07-05 20:09:04,261 - Log.py - [line:156] - DEBUG - [日志信息]: test debug
+2022-07-05 20:09:04,261 - Log.py - [line:157] - CRITICAL - [日志信息]: test critical
+2022-07-05 20:09:04,262 - Log.py - [line:158] - ERROR - [日志信息]: test error
+NoneType: None
+2022-07-05 20:09:04,262 - Log.py - [line:159] - WARNING - [日志信息]: test warning
+2022-07-05 20:09:04,262 - Log.py - [line:145] - INFO - [日志信息]: sdfsdf
+2022-07-05 20:09:38,907 - Log.py - [line:145] - INFO - [日志信息]: sdfsdf
+2022-07-05 20:13:28,479 - Log.py - [line:147] - INFO - [日志信息]: sdfsdf
+2022-07-05 20:13:45,848 - Log.py - [line:147] - INFO - [日志信息]: Char: 0 number: 2 space: 0 other: 0
+2022-07-05 20:17:46,485 - Log.py - [line:147] - INFO - [日志信息]: eee

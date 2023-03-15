@@ -1,0 +1,116 @@
+[2023-02-09 20:20:25,672]-[Log.py]-[line:165]-INFO: sdfsdf
+[2023-02-09 20:20:25,673]-[Log.py]-[line:169]-ERROR: sdfsd
+NoneType: None
+[2023-02-09 20:26:43,621]-[Log.py]-[line:165]-INFO: sdfsdf
+[2023-02-09 20:26:43,622]-[Log.py]-[line:169]-ERROR: sdfsd
+NoneType: None
+[2023-02-09 20:26:47,013]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:26:47,016]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:26:47,467]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-09 20:26:47,663]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:47,868]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:48,062]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:48,259]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:48,454]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:48,649]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:48,838]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:49,040]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:49,233]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:49,427]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:49,627]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:49,819]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:50,019]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:50,211]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:50,406]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:50,601]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:50,795]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:50,994]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:51,188]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:51,382]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:51,581]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:26:51,780]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:27:42,162]-[Log.py]-[line:165]-INFO: sdfsdf
+[2023-02-09 20:27:42,163]-[Log.py]-[line:169]-ERROR: sdfsd
+NoneType: None
+[2023-02-09 20:32:54,330]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:32:54,331]-[readConfig.py]-[line:24]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 18, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\config\\config.yaml'
+[2023-02-09 20:37:33,665]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:37:33,667]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:37:33,834]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:37:33,836]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:37:33,974]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:37:33,975]-[readConfig.py]-[line:24]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 18, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\test_data\\login_api_data.yaml'
+[2023-02-09 20:37:34,049]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-09 20:37:34,049]-[allure_report.py]-[line:24]-ERROR: 报告生成失败
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\allure_report.py", line 18, in generate_report
+    os.chdir(allure_bin_path)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\common\\allure-2.19.0\\bin'
+[2023-02-09 20:38:12,295]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:38:12,297]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:38:12,433]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:38:12,435]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:38:12,575]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:38:12,576]-[readConfig.py]-[line:24]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 18, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\test_data\\login_api_data.yaml'
+[2023-02-09 20:38:12,649]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-09 20:38:12,649]-[allure_report.py]-[line:24]-ERROR: 报告生成失败
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\allure_report.py", line 18, in generate_report
+    os.chdir(allure_bin_path)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\common\\allure-2.19.0\\bin'
+[2023-02-09 20:38:24,625]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:38:24,627]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:38:24,762]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:38:24,763]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:38:24,898]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:38:24,898]-[readConfig.py]-[line:24]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 18, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\test_data\\login_api_data.yaml'
+[2023-02-09 20:38:24,970]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-09 20:38:24,970]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-09 20:38:32,193]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-09 20:38:32,194]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-09 20:39:03,357]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:39:03,359]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:39:03,569]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:39:03,571]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:39:03,711]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-09 20:39:03,713]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-09 20:39:03,718]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-09 20:39:04,246]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-09 20:39:04,248]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-09 20:39:04,254]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-09 20:39:04,492]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:39:04,493]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-09 20:39:04,512]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-09 20:39:05,025]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-09 20:39:05,027]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-09 20:39:05,031]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-09 20:39:05,228]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:39:05,228]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+[2023-02-09 20:39:05,274]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-09 20:39:05,816]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-09 20:39:05,816]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-09 20:39:06,006]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:39:06,007]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-09 20:39:06,013]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-09 20:39:06,204]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-09 20:39:06,205]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-09 20:39:06,213]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-09 20:39:06,213]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-09 20:39:13,247]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-09 20:39:13,247]-[allure_report.py]-[line:22]-INFO: 报告生成成功！

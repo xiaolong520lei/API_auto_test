@@ -1,0 +1,53 @@
+robot_list_request_body:
+  create_robot_api: /plat/api/robot/saveOrUpdate
+  queryPersona_api: /plat/api/sys/depart/queryPersonalAndDepartAllList
+  queryDepart_api: /plat/api/sys/depart/queryDepartListByLoginUserId
+  query_api: /plat/api/robot/list
+  change_state_api: /plat/api/robot/update/state
+  delete_robot_api: /plat/api/robot/delRobot
+  skill_shop_api: /plat/api/skill/shop
+  add_skill_api: /plat/api/robot/update/skill/
+  delete_skill_api: /plat/api/robot/skill/delSkill
+
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+
+create_robot:
+  {
+      "name":"lastday",
+      "professionId":"4",
+      "list":[],
+      "useScopeType":0,
+      "description":"",
+      "fileInfoId":""
+}
+
+query_payload:
+  {
+      name: '',
+      current: 1,
+      size: 10
+}
+
+change_robot_state:
+  {
+      'state': -1,
+      'robotId': 270179743367170
+}
+
+
+skill_shop_payload:
+  {
+      robotId: 274162094505986,
+      queryType: 0
+}
+
+delete_skill_payload:
+  {
+    robotId: 274162094505986,
+    serviceId: 272946471960577
+  }

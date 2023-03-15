@@ -1,0 +1,368 @@
+[2022-07-11 17:55:36,860]-[Request.py]-[line:22]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login出错! HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 505, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/Dataplat_API_auto_test/common/Request.py", line 19, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+[2022-07-11 17:57:02,467]-[Request.py]-[line:22]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login出错! HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 505, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/Dataplat_API_auto_test/common/Request.py", line 19, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+[2022-07-11 17:57:09,953]-[Request.py]-[line:22]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login出错! HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 505, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/Dataplat_API_auto_test/common/Request.py", line 19, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+[2022-07-11 17:58:05,497]-[Request.py]-[line:22]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login出错! HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 505, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/Dataplat_API_auto_test/common/Request.py", line 19, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /youchu/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+[2022-07-11 17:58:43,597]-[Request.py]-[line:22]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/sys/login出错! HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /gdt/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 505, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /gdt/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/Dataplat_API_auto_test/common/Request.py", line 19, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /gdt/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+[2022-07-11 17:58:50,475]-[Request.py]-[line:22]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/sys/login出错! HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /gdt/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 505, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /gdt/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/Dataplat_API_auto_test/common/Request.py", line 19, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /gdt/api/sys/login (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+[2022-07-11 17:59:03,737]-[Request.py]-[line:20]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/sys/login 成功!
+[2022-07-11 17:59:10,352]-[Request.py]-[line:20]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/sys/login 成功!
+[2022-07-11 17:59:35,260]-[Request.py]-[line:22]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/sys/login 成功!
+[2022-07-11 18:23:59,398]-[Request.py]-[line:24]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/file/upload出错! HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /gdt/api/file/upload (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connection.py", line 505, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /gdt/api/file/upload (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/Dataplat_API_auto_test/common/Request.py", line 21, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='mrpa-test.ai-rtc.com', port=8082): Max retries exceeded with url: /gdt/api/file/upload (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1076)'))))
+[2022-07-11 18:24:36,069]-[Request.py]-[line:22]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/file/upload 成功!
+[2022-07-11 18:24:43,850]-[Request.py]-[line:22]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/file/upload 成功!
+[2022-07-11 18:25:25,250]-[Request.py]-[line:24]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/file/upload出错! Data must not be a string.
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/Dataplat_API_auto_test/common/Request.py", line 21, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 514, in prepare_body
+    (body, content_type) = self._encode_files(files, data)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 124, in _encode_files
+    raise ValueError("Data must not be a string.")
+ValueError: Data must not be a string.
+[2022-07-11 18:25:41,206]-[Request.py]-[line:22]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/gdt/api/file/upload 成功!

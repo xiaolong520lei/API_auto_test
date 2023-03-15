@@ -1,0 +1,65 @@
+2022-07-08 11:11:07,369 - Log.py - [line:157] - INFO : sdfsdf
+2022-07-08 11:11:07,369 - Log.py - [line:161] - ERROR : sdfsd
+NoneType: None
+2022-07-08 11:13:38,371 - Log.py - [line:157] - INFO : sdfsdf
+2022-07-08 11:13:38,372 - Log.py - [line:161] - ERROR : sdfsd
+NoneType: None
+[2022-07-08 11:14:15,715] - [Log.py] - [line:157] - INFO : sdfsdf
+[2022-07-08 11:14:15,715] - [Log.py] - [line:161] - ERROR : sdfsd
+NoneType: None
+[2022-07-08 11:15:05,026]-[Log.py]-[line:157]-INFO : sdfsdf
+[2022-07-08 11:15:05,026]-[Log.py]-[line:161]-ERROR : sdfsd
+NoneType: None
+[2022-07-08 11:15:28,458]-[Log.py]-[line:157]-INFO: sdfsdf
+[2022-07-08 11:15:28,459]-[Log.py]-[line:161]-ERROR: sdfsd
+NoneType: None
+[2022-07-08 11:16:23,855]-[Log.py]-[line:157]-INFO: sdfsdf
+[2022-07-08 11:16:23,855]-[Log.py]-[line:161]-ERROR: sdfsd
+NoneType: None
+[2022-07-08 11:17:00,269]-[Request.py]-[line:13]-INFO: eee
+[2022-07-08 11:23:35,291]-[Request.py]-[line:9]-INFO: eee
+[2022-07-08 11:25:29,467]-[Request.py]-[line:9]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 11:25:51,769]-[Request.py]-[line:9]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 11:33:10,457]-[Request.py]-[line:9]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 11:34:02,741]-[Request.py]-[line:11]-INFO: Get请求接口：asdfasdads 出错! Invalid URL 'asdfasdads': No scheme supplied. Perhaps you meant http://asdfasdads?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\Dataplat_API_auto_test\common\Request.py", line 8, in get_method
+    res = requests.get(url=url, params=pamars, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'asdfasdads': No scheme supplied. Perhaps you meant http://asdfasdads?
+[2022-07-08 11:34:40,318]-[Request.py]-[line:9]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 11:34:48,116]-[Request.py]-[line:11]-ERROR: Get请求接口：asdfasdads 出错! Invalid URL 'asdfasdads': No scheme supplied. Perhaps you meant http://asdfasdads?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\Dataplat_API_auto_test\common\Request.py", line 8, in get_method
+    res = requests.get(url=url, params=pamars, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'asdfasdads': No scheme supplied. Perhaps you meant http://asdfasdads?
+[2022-07-08 13:57:36,668]-[Request.py]-[line:10]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 13:59:08,307]-[Request.py]-[line:10]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 13:59:26,238]-[Request.py]-[line:10]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 13:59:56,853]-[Request.py]-[line:10]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 14:01:41,876]-[Request.py]-[line:20]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 14:02:04,401]-[Request.py]-[line:20]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!
+[2022-07-08 14:15:28,143]-[Request.py]-[line:20]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/youchu/api/sys/login 成功!

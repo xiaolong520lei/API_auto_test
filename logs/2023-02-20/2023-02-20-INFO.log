@@ -1,0 +1,167 @@
+[2023-02-20 16:59:13,573]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 16:59:13,576]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 16:59:13,731]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 16:59:13,734]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 16:59:13,751]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 16:59:13,753]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 16:59:14,302]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 16:59:14,542]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 16:59:15,014]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 16:59:15,257]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 16:59:15,258]-[test_robot_create.py]-[line:34]-INFO: 开始测试：test_api_response
+[2023-02-20 16:59:15,258]-[test_robot_create.py]-[line:35]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate
+[2023-02-20 16:59:15,258]-[test_robot_create.py]-[line:36]-INFO: {'name': 'auto_test5148', 'professionId': '4', 'list': [], 'useScopeType': 0, 'description': '', 'fileInfoId': ''}
+[2023-02-20 16:59:15,523]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate 成功!
+[2023-02-20 16:59:15,523]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-20 17:00:59,857]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:00:59,860]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:01:00,003]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:01:00,005]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:01:00,022]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:01:00,024]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:01:00,496]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 17:01:00,814]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 17:01:00,815]-[test_robot_create.py]-[line:34]-INFO: 开始测试：test_api_response
+[2023-02-20 17:01:00,815]-[test_robot_create.py]-[line:35]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate
+[2023-02-20 17:01:00,815]-[test_robot_create.py]-[line:36]-INFO: {'name': 'auto_test7776', 'professionId': '4', 'list': [], 'useScopeType': 0, 'description': '', 'fileInfoId': ''}
+[2023-02-20 17:01:01,134]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate 成功!
+[2023-02-20 17:01:01,134]-[test_robot_create.py]-[line:38]-INFO: {'code': 405, 'message': '不支持当前媒体类型', 'data': None, 'success': False}
+[2023-02-20 17:01:01,134]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-20 17:01:31,532]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:01:31,535]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:01:31,676]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:01:31,679]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:01:31,695]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:01:31,697]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:01:32,149]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 17:01:32,423]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 17:01:32,424]-[test_robot_create.py]-[line:34]-INFO: 开始测试：test_api_response
+[2023-02-20 17:01:32,424]-[test_robot_create.py]-[line:35]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate
+[2023-02-20 17:01:32,424]-[test_robot_create.py]-[line:36]-INFO: {'name': 'auto_test7645', 'professionId': '4', 'list': [], 'useScopeType': 0, 'description': '', 'fileInfoId': ''}
+[2023-02-20 17:01:32,639]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate 成功!
+[2023-02-20 17:01:32,639]-[test_robot_create.py]-[line:38]-INFO: {'code': 405, 'message': '不支持当前媒体类型', 'data': None, 'success': False}
+[2023-02-20 17:01:32,639]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-20 17:05:16,453]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:05:16,456]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:05:16,600]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:05:16,603]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:05:16,620]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:05:16,622]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:05:17,077]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 17:05:17,337]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 17:05:17,338]-[test_robot_create.py]-[line:35]-INFO: 开始测试：test_api_response
+[2023-02-20 17:05:17,339]-[test_robot_create.py]-[line:36]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate
+[2023-02-20 17:05:17,339]-[test_robot_create.py]-[line:37]-INFO: {'name': 'auto_test2849', 'professionId': '4', 'list': [], 'useScopeType': 0, 'description': '', 'fileInfoId': ''}
+[2023-02-20 17:05:17,634]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate 成功!
+[2023-02-20 17:05:17,635]-[test_robot_create.py]-[line:39]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-20 17:05:17,635]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-20 17:06:09,175]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:06:09,178]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:06:09,319]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:06:09,322]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:06:09,338]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:06:09,340]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:06:09,845]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 17:06:10,077]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 17:06:10,078]-[test_robot_list.py]-[line:33]-INFO: 开始测试：test_api_response
+[2023-02-20 17:06:10,079]-[test_robot_list.py]-[line:34]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list
+[2023-02-20 17:06:10,079]-[test_robot_list.py]-[line:35]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-20 17:06:10,345]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-20 17:06:10,345]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-20 17:07:47,193]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:07:47,196]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:07:47,339]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:07:47,342]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:07:47,358]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:07:47,360]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:07:47,780]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 17:07:48,037]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 17:07:48,038]-[test_robot_create.py]-[line:35]-INFO: 开始测试：test_api_response
+[2023-02-20 17:07:48,038]-[test_robot_create.py]-[line:36]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate
+[2023-02-20 17:08:03,464]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:08:03,467]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:08:03,610]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:08:03,613]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:08:03,629]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:08:03,631]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:08:04,044]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 17:08:04,372]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 17:08:04,373]-[test_robot_create.py]-[line:35]-INFO: 开始测试：test_api_response
+[2023-02-20 17:08:04,373]-[test_robot_create.py]-[line:36]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate
+[2023-02-20 17:08:04,373]-[test_robot_create.py]-[line:37]-INFO: {'name': 'auto_test9853', 'professionId': '4', 'list': [], 'useScopeType': 0, 'description': '', 'fileInfoId': ''}
+[2023-02-20 17:08:04,668]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate 成功!
+[2023-02-20 17:08:04,668]-[test_robot_create.py]-[line:39]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-20 17:08:04,669]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-20 17:21:14,881]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:21:14,884]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:21:15,026]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:21:15,028]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:21:15,045]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:21:15,047]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:21:15,458]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 17:21:15,678]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 17:21:15,678]-[conftest.py]-[line:66]-INFO: 获取Cookie成功！
+[2023-02-20 17:21:15,679]-[test_robot_create.py]-[line:36]-INFO: 开始测试：test_api_response
+[2023-02-20 17:21:15,679]-[test_robot_create.py]-[line:37]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate
+[2023-02-20 17:21:15,679]-[test_robot_create.py]-[line:38]-INFO: {'name': 'auto_test4023', 'professionId': '4', 'list': [], 'useScopeType': 0, 'description': '', 'fileInfoId': ''}
+[2023-02-20 17:21:15,876]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate 成功!
+[2023-02-20 17:21:15,876]-[test_robot_create.py]-[line:40]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-20 17:21:15,876]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-20 17:21:39,758]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:21:39,761]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:21:39,903]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:21:39,906]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:21:39,922]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:21:39,924]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:21:40,323]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 17:21:40,567]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 17:21:40,569]-[conftest.py]-[line:66]-INFO: 获取Cookie成功！
+[2023-02-20 17:21:40,570]-[test_robot_create.py]-[line:36]-INFO: 开始测试：test_api_response
+[2023-02-20 17:21:40,570]-[test_robot_create.py]-[line:37]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate
+[2023-02-20 17:21:40,570]-[test_robot_create.py]-[line:38]-INFO: {'name': 'auto_test8048', 'professionId': '4', 'list': [], 'useScopeType': 0, 'description': '', 'fileInfoId': ''}
+[2023-02-20 17:21:40,765]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate 成功!
+[2023-02-20 17:21:40,765]-[test_robot_create.py]-[line:40]-INFO: {'code': '9001', 'data': '登录超时！', 'success': False, 'message': '登录超时！'}
+[2023-02-20 17:21:40,765]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-20 17:22:29,018]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:22:29,021]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:22:29,164]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:22:29,166]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:22:29,183]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-20 17:22:29,185]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-20 17:22:29,989]-[Request.py]-[line:20]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-20 17:22:30,255]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-20 17:22:30,255]-[conftest.py]-[line:66]-INFO: 获取Cookie成功！
+[2023-02-20 17:22:30,256]-[test_robot_create.py]-[line:36]-INFO: 开始测试：test_api_response
+[2023-02-20 17:22:30,256]-[test_robot_create.py]-[line:37]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate
+[2023-02-20 17:22:30,257]-[test_robot_create.py]-[line:38]-INFO: {'name': 'auto_test2537', 'professionId': '4', 'list': [], 'useScopeType': 0, 'description': '', 'fileInfoId': ''}
+[2023-02-20 17:22:30,480]-[Request.py]-[line:30]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/saveOrUpdate 成功!
+[2023-02-20 17:22:30,480]-[test_robot_create.py]-[line:40]-INFO: {'code': 200, 'message': 'success', 'data': '新增成功', 'success': True}
+[2023-02-20 17:22:30,481]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 

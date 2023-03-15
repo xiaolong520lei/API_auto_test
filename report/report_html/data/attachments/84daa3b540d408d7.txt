@@ -1,0 +1,5 @@
+WARNING  Log:test_worktop.py:57 开始测试：test_query__count_dispatch_task
+INFO     Log:Request.py:35 POST请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/report/work/sumTask 成功!
+INFO     Log:Request.py:43 POST接口返回数据为:{'code': 200, 'message': 'success', 'data': {'sumTaskList': [{'name': '待处理', 'value': 1}, {'name': '处理中', 'value': 3}, {'name': '已完成', 'value': 40}, {'name': '已终止', 'value': 101}], 'sumTask': 145}, 'success': True}
+INFO     Log:Assert.py:15 断言成功----验证值为： 200, 结果为：200 
+INFO     Log:test_worktop.py:60 测试完成！

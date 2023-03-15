@@ -1,0 +1,78 @@
+[2023-02-17 15:56:19,181]-[Request.py]-[line:33]-ERROR: Post请求接口：/plat/api/sys/login出错! Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+[2023-02-17 15:56:19,795]-[Request.py]-[line:33]-ERROR: Post请求接口：/plat/api/sys/login出错! Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+[2023-02-17 15:56:20,452]-[Request.py]-[line:33]-ERROR: Post请求接口：/plat/api/sys/login出错! Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+[2023-02-17 15:56:20,462]-[Request.py]-[line:33]-ERROR: Post请求接口：/plat/api/sys/login出错! Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+[2023-02-17 15:59:05,528]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-17 15:59:06,450]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 用户名或密码错误, 结果为：验证不通过 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError

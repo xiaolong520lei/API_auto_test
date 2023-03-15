@@ -1,0 +1,35 @@
+[2023-02-28 10:54:33,038]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 400, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-28 10:54:34,022]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 9002, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-28 11:31:02,922]-[readConfig.py]-[line:28]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 22, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\test_data\\test_execute_list.yaml'
+[2023-02-28 14:16:42,890]-[readConfig.py]-[line:28]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 22, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\test_device_operate_state.yaml'
+[2023-02-28 16:23:37,891]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 400, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-28 16:23:58,924]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 10104, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-28 17:32:48,300]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 400, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError

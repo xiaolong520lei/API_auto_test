@@ -1,0 +1,34 @@
+robot_list_request_body:
+  query_data_api: /plat/api/sys/enterprise/list
+  update_data_api: /plat/api/sys/enterprise/update
+
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+
+query_data_payload:
+  {
+    pageIndex: 1,
+    pageSize: 10
+  }
+
+update_data_payload:
+  {
+    "id":null,
+    "bid":1142,
+    "enterpriseName":"智能rpa部门",
+    "professionId":"4",
+    "contactName":"",
+    "mobile":"",
+    "email":"",
+    "address":"",
+    "introduction":"智能rpa",
+    "status":0,
+    "createId":"1222",
+    "createTime":1673944935000,
+    "updateId":"1222",
+    "updateTime":1673944934000
+  }

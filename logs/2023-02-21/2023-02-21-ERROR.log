@@ -1,0 +1,66 @@
+[2023-02-21 09:24:48,594]-[Request.py]-[line:32]-ERROR: Post请求接口：/plat/api/sys/depart/queryPersonalAndDepartAllList出错! Invalid URL '/plat/api/sys/depart/queryPersonalAndDepartAllList': No scheme supplied. Perhaps you meant http:///plat/api/sys/depart/queryPersonalAndDepartAllList?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 29, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '/plat/api/sys/depart/queryPersonalAndDepartAllList': No scheme supplied. Perhaps you meant http:///plat/api/sys/depart/queryPersonalAndDepartAllList?
+[2023-02-21 09:27:04,064]-[Request.py]-[line:32]-ERROR: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/depart/queryPersonalAndDepartAllList出错! request() got an unexpected keyword argument 'cookie'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 29, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+TypeError: request() got an unexpected keyword argument 'cookie'
+[2023-02-21 17:48:55,371]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 10101, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-21 17:50:16,215]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 10101, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-21 17:52:24,969]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 405, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-21 17:56:25,181]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 9001, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-21 18:34:54,088]-[readConfig.py]-[line:25]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 19, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\test_data\\login_test_data.yaml'
+[2023-02-21 18:39:14,418]-[readConfig.py]-[line:25]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 19, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\test_data\\login_test_data.yaml'
+[2023-02-21 18:40:07,492]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 105, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-21 18:40:10,236]-[Assert.py]-[line:17]-ERROR: 断言失败----验证值为： 105, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError

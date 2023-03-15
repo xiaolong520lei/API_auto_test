@@ -1,0 +1,24 @@
+robot_list_request_body:
+  department_tree_api: /plat/api/sys/depart/treelist
+  up_down_depart_api: /plat/api/sys/depart/upDownDepart
+  add_depart_api: /plat/api/sys/depart/add
+  delete_depart_api: /plat/api/sys/depart/delete
+
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+
+add_depart_payload:
+  {
+   parentId: 241843426099203,
+   departName: "test"
+  }
+
+up_down_payload:
+  {
+    departId: 260058929758211,
+    action: up
+  }

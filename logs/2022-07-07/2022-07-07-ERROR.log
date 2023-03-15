@@ -1,0 +1,12 @@
+2022-07-07 14:48:51,485 - Log.py - [line:162] - ERROR - [日志信息]: sdfsd
+NoneType: None
+2022-07-07 14:49:27,921 - Log.py - [line:189] - ERROR - [日志信息]: sdfsd
+2022-07-07 16:21:16,910 - count_word.py - [line:26] - ERROR - [日志信息]: name 'time' is not defined
+2022-07-07 16:21:46,690 - Log.py - [line:162] - ERROR - [日志信息]: sdfsd
+NoneType: None
+2022-07-07 16:22:06,509 - count_word.py - [line:26] - ERROR - [日志信息]: name 'time' is not defined
+2022-07-07 16:22:28,430 - Log.py - [line:162] - ERROR - [日志信息]: name 'time' is not defined
+Traceback (most recent call last):
+  File "C:/Users/Administrator/PycharmProjects/Dataplat_API_auto_test/test_data/count_word.py", line 24, in <module>
+    time.asdsd
+NameError: name 'time' is not defined

@@ -1,0 +1,443 @@
+[2023-02-10 10:07:26,548]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:07:26,550]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:07:26,700]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:07:26,702]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:07:26,846]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:07:26,848]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:07:26,854]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:07:27,300]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:07:27,302]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:07:27,308]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:07:27,532]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:07:27,533]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-10 10:07:27,539]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:07:27,930]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:07:27,931]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:07:27,935]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:07:28,283]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:07:28,283]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 用户名或密码错误, 结果为：用户名或密码错误 
+[2023-02-10 10:07:28,288]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:07:28,806]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:07:28,807]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:07:29,068]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:07:29,068]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:07:29,075]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:07:29,279]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:07:29,280]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:07:29,288]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:07:29,288]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:07:36,849]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:07:36,849]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:08:40,334]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:08:40,336]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:08:40,475]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:08:40,477]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:08:40,613]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:08:40,615]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:08:40,620]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:08:41,201]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:08:41,202]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:08:41,208]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:08:41,489]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:08:41,489]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-10 10:08:41,494]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:08:42,041]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:08:42,043]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:08:42,047]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:08:42,326]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:08:42,326]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+[2023-02-10 10:08:42,370]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:08:43,469]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:08:43,469]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:08:43,726]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:08:43,726]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:08:43,732]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:08:44,005]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:08:44,006]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:08:44,013]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:08:44,013]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:08:51,067]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:08:51,068]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:11:48,114]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:11:48,116]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:11:48,255]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:11:48,256]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:11:48,395]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:11:48,397]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:11:48,402]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:11:49,014]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:11:49,015]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:11:49,021]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:11:49,272]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:11:49,273]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-10 10:11:49,302]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:11:49,917]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:11:49,919]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:11:49,923]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:11:50,157]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:11:50,157]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 用户名或密码错误, 结果为：用户名或密码错误 
+[2023-02-10 10:11:50,163]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:11:50,689]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:11:50,689]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:11:50,921]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:11:50,921]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:11:50,927]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:11:51,143]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:11:51,143]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:11:51,150]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:11:51,151]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:11:58,535]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:11:58,535]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:13:56,991]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:13:56,993]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:13:57,131]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:13:57,133]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:13:57,271]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:13:57,273]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:13:57,278]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:13:57,726]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:13:57,728]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:13:57,734]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:13:57,965]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:13:57,965]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-10 10:13:57,970]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:13:58,457]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:13:58,459]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:13:58,463]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:13:58,764]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:13:58,764]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 用户名或密码错误, 结果为：用户名或密码错误 
+[2023-02-10 10:13:58,827]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:13:59,284]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:13:59,285]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:13:59,566]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:13:59,567]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:13:59,572]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:13:59,819]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:13:59,819]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:13:59,826]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:13:59,826]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:14:01,558]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:14:01,558]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:18:29,134]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:18:29,136]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:18:29,278]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:18:29,279]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:18:29,419]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:18:29,421]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:18:29,427]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:18:30,026]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:18:30,027]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:18:30,033]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:18:31,575]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:18:31,575]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 500, 结果为：200 
+[2023-02-10 10:18:31,619]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:18:32,805]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:18:32,807]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:18:32,811]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:18:33,177]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:18:33,177]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 用户名或密码错误, 结果为：用户名或密码错误 
+[2023-02-10 10:18:33,182]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:18:34,126]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:18:34,126]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:18:34,449]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:18:34,449]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:18:34,454]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:18:34,678]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:18:34,678]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:18:34,685]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:18:34,685]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:18:37,147]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:18:37,147]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:21:54,889]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:21:54,891]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:21:55,032]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:21:55,034]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:21:55,171]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:21:55,173]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:21:55,179]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:21:57,471]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:21:57,472]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:21:57,478]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:21:59,428]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:21:59,429]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-10 10:21:59,434]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:22:02,454]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:22:02,455]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:22:02,459]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:22:02,713]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:22:02,714]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+[2023-02-10 10:22:02,719]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:22:03,648]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:22:03,648]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:22:03,858]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:22:03,858]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:22:03,863]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:22:04,136]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:22:04,136]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:22:04,142]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:22:04,143]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:22:06,845]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:22:06,845]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:32:34,296]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:32:34,298]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:32:34,457]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:32:34,458]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:32:34,596]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:32:34,599]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:32:34,603]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:32:36,017]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:32:36,018]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:32:36,024]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:32:36,449]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:32:36,449]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-10 10:32:36,454]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:32:37,757]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:32:37,759]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:32:37,762]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:32:38,197]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:32:38,197]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+[2023-02-10 10:32:38,240]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:32:39,607]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:32:39,607]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:32:39,818]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:32:39,818]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:32:39,823]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:32:40,134]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:32:40,135]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:32:40,141]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:32:40,142]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:32:43,519]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:32:43,519]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:35:19,695]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:35:19,697]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:35:19,865]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:35:19,867]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:35:20,010]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:35:20,012]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:35:20,017]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:35:20,750]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:35:20,752]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:35:20,757]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:35:20,979]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:35:20,980]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-10 10:35:20,984]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:35:21,511]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:35:21,513]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:35:21,517]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:35:21,725]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:35:21,726]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 用户名或密码错误, 结果为：用户名或密码错误 
+[2023-02-10 10:35:21,730]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:35:22,265]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:35:22,265]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:35:22,479]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:35:22,480]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:35:22,485]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:35:22,685]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:35:22,686]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:35:22,692]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:35:22,693]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:35:25,619]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:35:25,619]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:44:05,341]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:44:05,343]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:44:05,517]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:44:05,518]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:44:05,657]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:44:05,659]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:44:05,664]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:44:06,267]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:44:06,269]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:44:06,274]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:44:06,527]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:44:06,527]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-10 10:44:06,532]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:44:07,418]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:44:07,420]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:44:07,423]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:44:07,669]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:44:07,669]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 用户名或密码错误, 结果为：用户名或密码错误 
+[2023-02-10 10:44:07,674]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:44:08,543]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:44:08,543]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:44:08,896]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:44:08,896]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:44:08,901]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:44:09,181]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:44:09,181]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:44:09,186]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:44:09,187]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:44:12,933]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:44:12,933]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:50:31,044]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:50:31,046]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:50:31,211]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:50:31,213]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:50:31,353]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:50:31,355]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:50:31,360]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:50:32,853]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:50:32,854]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:50:32,860]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:50:33,108]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:50:33,108]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-10 10:50:33,113]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:50:33,938]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:50:33,939]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:50:33,943]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:50:34,169]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:50:34,169]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 用户名或密码错误, 结果为：用户名或密码错误 
+[2023-02-10 10:50:34,174]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:50:35,099]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:50:35,100]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:50:35,322]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:50:35,323]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:50:35,329]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:50:35,546]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:50:35,546]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:50:35,552]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:50:35,552]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:50:39,675]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:50:39,675]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 10:59:42,612]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:59:42,614]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:59:42,817]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:59:42,818]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:59:42,957]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 10:59:42,959]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 10:59:42,964]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 10:59:43,723]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:59:43,725]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 10:59:43,730]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 10:59:43,931]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:59:43,932]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 500, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-10 10:59:43,977]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 10:59:45,353]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:59:45,354]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 10:59:45,358]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 10:59:45,592]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:59:45,593]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-10 10:59:45,603]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 10:59:46,348]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 10:59:46,348]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 10:59:46,626]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:59:46,626]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 10:59:46,631]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 10:59:46,852]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 10:59:46,852]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 10:59:46,863]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 10:59:46,864]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 10:59:51,200]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 10:59:51,201]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 11:00:41,638]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 11:00:41,640]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 11:00:41,792]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 11:00:41,794]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 11:00:41,933]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 11:00:41,935]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 11:00:41,940]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-10 11:00:42,782]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 11:00:42,783]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-10 11:00:42,789]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-10 11:00:42,989]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 11:00:42,989]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 500, 结果为：200 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-10 11:00:43,034]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-10 11:00:43,834]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 11:00:43,835]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-10 11:00:43,839]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-10 11:00:44,117]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 11:00:44,117]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 用户名或密码错误, 结果为：用户名或密码错误 
+[2023-02-10 11:00:44,160]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-10 11:00:44,815]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 11:00:44,815]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-10 11:00:45,027]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 11:00:45,027]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-10 11:00:45,034]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-10 11:00:45,236]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 11:00:45,236]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-10 11:00:45,243]-[allure_report.py]-[line:17]-INFO: 正在生成报告中...
+[2023-02-10 11:00:45,244]-[allure_report.py]-[line:19]-INFO: 生成报告的数据路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_data
+[2023-02-10 11:00:50,336]-[allure_report.py]-[line:21]-INFO: 生成报告html路径为：C:\Users\Administrator\PycharmProjects\API_auto_test\report\report_html
+[2023-02-10 11:00:50,337]-[allure_report.py]-[line:22]-INFO: 报告生成成功！
+[2023-02-10 14:54:38,141]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 14:54:38,143]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 14:54:38,827]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 14:54:39,060]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 14:55:42,944]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 14:55:42,946]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 14:55:43,418]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 14:55:43,634]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 14:56:09,857]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 14:56:09,860]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 14:56:10,371]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 14:56:10,600]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 14:57:13,900]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 14:57:13,902]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 14:57:14,444]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 14:57:14,671]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 14:57:30,920]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 14:57:30,923]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 14:57:31,432]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 14:57:31,707]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 15:56:25,212]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 15:56:25,214]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 15:56:25,933]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-10 15:56:26,169]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:15:27,623]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 16:15:27,625]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 16:15:28,290]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:15:28,497]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:16:14,370]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 16:16:14,372]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 16:16:15,048]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:16:15,307]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:16:55,809]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 16:16:55,811]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 16:16:56,288]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:16:56,507]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:37:45,627]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 16:37:45,629]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 16:37:46,128]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:37:46,356]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:37:47,089]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:37:47,298]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:37:47,867]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:37:48,133]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:37:48,823]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:37:49,032]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:37:49,574]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:37:49,856]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:37:50,511]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:37:50,745]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:37:51,352]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:41:06,520]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 16:41:06,522]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 16:41:07,090]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:41:07,302]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:41:07,890]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:41:08,093]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 16:41:08,669]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin2 成功!
+[2023-02-10 16:41:08,888]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-10 18:36:05,116]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 18:36:05,118]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 18:36:31,906]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 18:36:31,908]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 18:36:51,286]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 18:36:51,288]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 18:37:14,880]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 18:37:14,882]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 18:38:58,242]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 18:38:58,244]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！
+[2023-02-10 18:39:41,495]-[readConfig.py]-[line:17]-INFO: 正在读取配置文件中...
+[2023-02-10 18:39:41,497]-[readConfig.py]-[line:20]-INFO: 配置文件数据读取成功！

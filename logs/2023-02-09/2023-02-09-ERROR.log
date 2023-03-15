@@ -1,0 +1,37 @@
+[2023-02-09 20:20:25,673]-[Log.py]-[line:169]-ERROR: sdfsd
+NoneType: None
+[2023-02-09 20:26:43,622]-[Log.py]-[line:169]-ERROR: sdfsd
+NoneType: None
+[2023-02-09 20:27:42,163]-[Log.py]-[line:169]-ERROR: sdfsd
+NoneType: None
+[2023-02-09 20:32:54,331]-[readConfig.py]-[line:24]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 18, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\config\\config.yaml'
+[2023-02-09 20:37:33,975]-[readConfig.py]-[line:24]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 18, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\test_data\\login_api_data.yaml'
+[2023-02-09 20:37:34,049]-[allure_report.py]-[line:24]-ERROR: 报告生成失败
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\allure_report.py", line 18, in generate_report
+    os.chdir(allure_bin_path)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\common\\allure-2.19.0\\bin'
+[2023-02-09 20:38:12,576]-[readConfig.py]-[line:24]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 18, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\test_data\\login_api_data.yaml'
+[2023-02-09 20:38:12,649]-[allure_report.py]-[line:24]-ERROR: 报告生成失败
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\allure_report.py", line 18, in generate_report
+    os.chdir(allure_bin_path)
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\common\\allure-2.19.0\\bin'
+[2023-02-09 20:38:24,898]-[readConfig.py]-[line:24]-ERROR: 配置文件读取失败！
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\readConfig.py", line 18, in read_config
+    f = open(file=file_path, mode='r', encoding='utf-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\PycharmProjects\\API_auto_test\\run_main\\test_data\\login_api_data.yaml'
+[2023-02-09 20:39:05,228]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 

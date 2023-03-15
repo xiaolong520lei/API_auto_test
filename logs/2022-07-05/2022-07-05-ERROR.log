@@ -1,0 +1,12 @@
+2022-07-05 19:30:57,237 - Log.py - [line:156] - CRITICAL - [日志信息]: test critical
+2022-07-05 19:30:57,237 - Log.py - [line:157] - ERROR - [日志信息]: test error
+NoneType: None
+2022-07-05 19:34:15,949 - Log.py - [line:156] - CRITICAL - [日志信息]: test critical
+2022-07-05 19:34:15,949 - Log.py - [line:157] - ERROR - [日志信息]: test error
+NoneType: None
+2022-07-05 20:07:59,966 - Log.py - [line:157] - CRITICAL - [日志信息]: test critical
+2022-07-05 20:07:59,967 - Log.py - [line:158] - ERROR - [日志信息]: test error
+NoneType: None
+2022-07-05 20:09:04,261 - Log.py - [line:157] - CRITICAL - [日志信息]: test critical
+2022-07-05 20:09:04,262 - Log.py - [line:158] - ERROR - [日志信息]: test error
+NoneType: None

@@ -1,0 +1,181 @@
+[2023-02-17 14:49:31,354]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 14:49:31,357]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 14:49:31,500]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 14:49:31,502]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 14:49:31,653]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 14:49:31,655]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 14:49:31,731]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 14:49:31,734]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 14:49:32,163]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 14:49:32,431]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 14:49:32,432]-[test_robot_list.py]-[line:37]-INFO: 开始测试：test_api_response
+[2023-02-17 14:49:32,433]-[test_robot_list.py]-[line:38]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list
+[2023-02-17 14:49:32,433]-[test_robot_list.py]-[line:39]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-17 14:51:46,816]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 14:51:46,819]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 14:51:46,939]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 14:51:46,942]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 14:51:47,084]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 14:51:47,087]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 14:51:47,126]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 14:51:47,129]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 14:51:47,585]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 14:51:47,814]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 14:51:47,816]-[test_robot_list.py]-[line:37]-INFO: 开始测试：test_api_response
+[2023-02-17 14:51:47,816]-[test_robot_list.py]-[line:38]-INFO: https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list
+[2023-02-17 14:51:47,816]-[test_robot_list.py]-[line:39]-INFO: {'name': '', 'current': 1, 'size': 10}
+[2023-02-17 14:51:48,083]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-17 14:51:48,083]-[test_robot_list.py]-[line:41]-INFO: {'code': 200, 'message': 'success', 'data': {'records': [{'id': 70, 'bid': 272554159833090, 'name': 'wang', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'PDJJ4NQSZAMI', 'description': None, 'registerCode': '3GLMLRS0', 'avatar': None, 'qrCode': None, 'creator': {'id': 59, 'bid': 270778580926466, 'name': 'wang'}, 'createTime': 1676264751000, 'updateTime': 1676264767000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 69, 'bid': 270179743367170, 'name': 'CLrobot私人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'kevin', 'apiKey': 'ZHKWEACPODBN', 'description': None, 'registerCode': 'J7JYOOYI', 'avatar': None, 'qrCode': None, 'creator': {'id': 55, 'bid': 266782201937922, 'name': 'kevin'}, 'createTime': 1675132541000, 'updateTime': 1675219622000, 'state': 0, 'status': True, 'ifEdit': True, 'type': None}, {'id': 68, 'bid': 267644378873858, 'name': 'litongzhi09', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': '2KEXPGDGU7GL', 'description': None, 'registerCode': 'I2MNU2YR', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923585000, 'updateTime': 1674872752000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 67, 'bid': 267644322250754, 'name': 'tongzhi01', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'NSN0TAXHJP6X', 'description': None, 'registerCode': 'X1LJ5TAJ', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1673923558000, 'updateTime': 1675231776000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 66, 'bid': 265859427794946, 'name': '资源市场002', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': '23B55ZEL', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072454000, 'updateTime': 1673072454000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 65, 'bid': 265859408920578, 'name': '资源市场09', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': '验证技能问题', 'apiKey': 'YHKZUYD0ARLN', 'description': None, 'registerCode': 'LHWRQ635', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072445000, 'updateTime': 1673072445000, 'state': -1, 'status': False, 'ifEdit': True, 'type': 2}, {'id': 64, 'bid': 265859094347778, 'name': '技能权限001', 'professionId': None, 'useScope': None, 'useScopeType': 2, 'specificUseScope': '智能rpa部门/测试部/测试一部', 'apiKey': 'WKB9NI5LO13C', 'description': None, 'registerCode': 'SY5DA7M3', 'avatar': None, 'qrCode': None, 'creator': {'id': 52, 'bid': 265856693108738, 'name': '验证技能问题'}, 'createTime': 1673072295000, 'updateTime': 1673072305000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 62, 'bid': 265689724157954, 'name': 'W20230106', 'professionId': None, 'useScope': None, 'useScopeType': 0, 'specificUseScope': '公开', 'apiKey': 'MFQN30BGH2CP', 'description': None, 'registerCode': 'NRW5FMI4', 'avatar': None, 'qrCode': None, 'creator': {'id': 1, 'bid': 1222, 'name': '企业级管理员'}, 'createTime': 1672991533000, 'updateTime': 1675735814000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 61, 'bid': 265531401764866, 'name': '文档01', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'WPOVCCBTZL4G', 'description': None, 'registerCode': 'KPN74K6Y', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672916039000, 'updateTime': 1675407190000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}, {'id': 60, 'bid': 265524820901890, 'name': '文档机器人', 'professionId': None, 'useScope': None, 'useScopeType': 1, 'specificUseScope': 'tang01', 'apiKey': 'E4WKD3Z28NGG', 'description': None, 'registerCode': 'WJOE0RL8', 'avatar': None, 'qrCode': None, 'creator': {'id': 41, 'bid': 263871235424258, 'name': 'bumen'}, 'createTime': 1672912901000, 'updateTime': 1675407204000, 'state': -1, 'status': False, 'ifEdit': True, 'type': None}], 'total': 54, 'size': 10, 'current': 0, 'orders': [], 'searchCount': True, 'pages': 6}, 'success': True}
+[2023-02-17 14:51:48,088]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-17 15:55:43,792]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:55:43,795]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:55:43,939]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:55:43,942]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:55:43,989]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:55:43,991]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:56:18,302]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:56:18,304]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:56:18,444]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:56:18,447]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:56:18,464]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:56:18,466]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:56:18,474]-[test_login.py]-[line:36]-INFO: 开始测试：test_right_account
+[2023-02-17 15:56:19,174]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 15:56:19,175]-[test_login.py]-[line:44]-INFO: 验证图保存成功！
+[2023-02-17 15:56:19,181]-[test_login.py]-[line:46]-INFO: 获取拖图坐标成功
+[2023-02-17 15:56:19,181]-[Request.py]-[line:33]-ERROR: Post请求接口：/plat/api/sys/login出错! Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+[2023-02-17 15:56:19,234]-[test_login.py]-[line:56]-INFO: 开始测试：test_wrong_account
+[2023-02-17 15:56:19,789]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 15:56:19,791]-[test_login.py]-[line:64]-INFO: 验证图保存成功！
+[2023-02-17 15:56:19,795]-[test_login.py]-[line:66]-INFO: 获取拖图坐标成功
+[2023-02-17 15:56:19,795]-[Request.py]-[line:33]-ERROR: Post请求接口：/plat/api/sys/login出错! Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+[2023-02-17 15:56:19,803]-[test_login.py]-[line:76]-INFO: 开始测试：test_wrong_slide
+[2023-02-17 15:56:20,451]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 15:56:20,451]-[test_login.py]-[line:79]-INFO: 请求slide picture 成功！
+[2023-02-17 15:56:20,452]-[Request.py]-[line:33]-ERROR: Post请求接口：/plat/api/sys/login出错! Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+[2023-02-17 15:56:20,461]-[test_login.py]-[line:87]-INFO: 开始测试：test_miss_slide_params
+[2023-02-17 15:56:20,462]-[Request.py]-[line:33]-ERROR: Post请求接口：/plat/api/sys/login出错! Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Request.py", line 30, in post_method
+    response = requests.post(url=url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '/plat/api/sys/login': No scheme supplied. Perhaps you meant http:///plat/api/sys/login?
+[2023-02-17 15:59:03,344]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:59:03,347]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:59:03,490]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:59:03,493]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:59:03,511]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:59:03,513]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:59:03,520]-[test_login.py]-[line:37]-INFO: 开始测试：test_right_account
+[2023-02-17 15:59:04,353]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 15:59:04,354]-[test_login.py]-[line:45]-INFO: 验证图保存成功！
+[2023-02-17 15:59:04,360]-[test_login.py]-[line:47]-INFO: 获取拖图坐标成功
+[2023-02-17 15:59:04,654]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 15:59:04,654]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-17 15:59:04,657]-[test_login.py]-[line:57]-INFO: 开始测试：test_wrong_account
+[2023-02-17 15:59:05,293]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 15:59:05,295]-[test_login.py]-[line:65]-INFO: 验证图保存成功！
+[2023-02-17 15:59:05,299]-[test_login.py]-[line:67]-INFO: 获取拖图坐标成功
+[2023-02-17 15:59:05,528]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 15:59:05,528]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 验证不通过, 结果为：用户名或密码错误 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-17 15:59:05,576]-[test_login.py]-[line:77]-INFO: 开始测试：test_wrong_slide
+[2023-02-17 15:59:06,218]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 15:59:06,218]-[test_login.py]-[line:80]-INFO: 请求slide picture 成功！
+[2023-02-17 15:59:06,450]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 15:59:06,450]-[Assert.py]-[line:17]-ERROR: 验证失败, 验证值为： 用户名或密码错误, 结果为：验证不通过 
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\API_auto_test\common\Assert.py", line 14, in assert_equal
+    assert value_1 == value_2
+AssertionError
+[2023-02-17 15:59:06,458]-[test_login.py]-[line:88]-INFO: 开始测试：test_miss_slide_params
+[2023-02-17 15:59:06,694]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 15:59:06,694]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 
+[2023-02-17 15:59:53,284]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:59:53,287]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:59:53,432]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:59:53,434]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:59:53,452]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-17 15:59:53,454]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-17 15:59:53,462]-[test_login.py]-[line:37]-INFO: 开始测试：test_right_account
+[2023-02-17 15:59:54,337]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 15:59:54,339]-[test_login.py]-[line:45]-INFO: 验证图保存成功！
+[2023-02-17 15:59:54,345]-[test_login.py]-[line:47]-INFO: 获取拖图坐标成功
+[2023-02-17 15:59:54,578]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 15:59:54,579]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 200, 结果为：200 
+[2023-02-17 15:59:54,581]-[test_login.py]-[line:57]-INFO: 开始测试：test_wrong_account
+[2023-02-17 15:59:55,142]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 15:59:55,144]-[test_login.py]-[line:65]-INFO: 验证图保存成功！
+[2023-02-17 15:59:55,148]-[test_login.py]-[line:67]-INFO: 获取拖图坐标成功
+[2023-02-17 15:59:55,387]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 15:59:55,387]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 用户名或密码错误, 结果为：用户名或密码错误 
+[2023-02-17 15:59:55,389]-[test_login.py]-[line:77]-INFO: 开始测试：test_wrong_slide
+[2023-02-17 15:59:55,961]-[Request.py]-[line:21]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-17 15:59:55,961]-[test_login.py]-[line:80]-INFO: 请求slide picture 成功！
+[2023-02-17 15:59:56,383]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 15:59:56,383]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 验证不通过, 结果为：验证不通过 
+[2023-02-17 15:59:56,386]-[test_login.py]-[line:88]-INFO: 开始测试：test_miss_slide_params
+[2023-02-17 15:59:56,639]-[Request.py]-[line:31]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-17 15:59:56,639]-[Assert.py]-[line:15]-INFO: 验证成功, 验证值为： 滑块移动距离参数缺失, 结果为：滑块移动距离参数缺失 

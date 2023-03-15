@@ -1,0 +1,26 @@
+robot_list_request_body:
+  query_robots_api: /plat/api/robot/task/robots
+  get_state_api: /plat/api/report/ServiceState/getState
+  query_device_robot_list_api: /plat/api/robot/device/robotList
+
+
+
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+
+query_data_payload:
+  {
+    size: 10,
+    current: 1
+  }
+
+query_device_robot_list_payload:
+  {
+    decvicId: 241858108260353,
+    current: 1,
+    size: 10
+  }

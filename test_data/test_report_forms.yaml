@@ -1,0 +1,52 @@
+robot_list_request_body:
+  robots_report_forms_api: /plat/api/report/rotbotReport/robotStat
+  devices_report_forms_api: /plat/api/report/SerUseStatistics/serviceStatistics
+  skills_report_forms_api: /plat/api/report/skillReport/skillStat
+  tasks_report_forms_api: /plat/api/report/taskReport/taskStat
+
+
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+
+devices_report_forms_payload:
+  {
+    size: 10,
+    current: 1,
+    serviceName: "",
+    deptId: "",
+    startDate: "2023-02-28",
+    endDate: "2023-02-28"
+  }
+
+skills_report_forms:
+  {
+    "size":10,
+    "current":1,
+    "skillId":"",
+    "deptId":"",
+    "userName":"",
+    "state":null,
+    "startDate":"2023-02-28",
+    "endDate":"2023-02-28"
+  }
+robots_report_forms_payload:
+  {
+    size: 10,
+    current: 1,
+    robotName: "",
+    startDate: "2023-02-28",
+    endDate: "2023-02-28"
+  }
+tasks_report_forms_payload:
+  {
+    flag: 1,
+    size: 10,
+    current: 1,
+    deptId: "",
+    startDate: "2023-02-28",
+    endDate: "2023-02-28"
+  }

@@ -1,0 +1,238 @@
+[2023-02-15 17:07:11,006]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:07:11,067]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:07:11,068]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:07:11,104]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:08:53,186]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:08:53,195]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:08:53,195]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:08:53,198]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:10:44,390]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:10:44,392]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:10:44,392]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:10:44,395]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:10:44,933]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:10:45,317]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:31:06,807]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:31:06,809]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:32:41,337]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:32:41,339]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:36:19,003]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:36:19,005]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:36:19,844]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:36:19,845]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:36:19,846]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:36:19,848]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:36:20,021]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:36:20,023]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:37:08,501]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:37:08,503]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:37:08,778]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:37:08,781]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:37:08,781]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:37:08,783]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:37:08,840]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:37:08,843]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:38:02,373]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:38:02,375]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:38:02,653]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:38:02,655]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:38:02,656]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:38:02,658]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:38:02,676]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:38:02,679]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:38:07,520]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:38:07,921]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-15 17:38:07,921]-[Login.py]-[line:41]-ERROR: 获取cookie失败
+[2023-02-15 17:38:10,158]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:38:10,726]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-15 17:38:10,726]-[Login.py]-[line:41]-ERROR: 获取cookie失败
+[2023-02-15 17:38:12,752]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:38:13,761]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-15 17:38:13,761]-[Login.py]-[line:41]-ERROR: 获取cookie失败
+[2023-02-15 17:41:21,897]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:41:21,899]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:41:22,225]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:41:22,227]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:41:22,227]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:41:22,229]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:41:22,249]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:41:22,252]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:41:22,920]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:41:23,190]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-15 17:41:23,190]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:41:23,821]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:41:24,028]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-15 17:41:24,029]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:41:24,622]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:41:24,847]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-15 17:41:24,847]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:43:51,262]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:43:51,264]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:43:51,545]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:43:51,547]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:43:51,547]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:43:51,549]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:43:51,568]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:43:51,571]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:43:52,214]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:43:52,419]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-15 17:43:52,420]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:43:52,994]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:43:53,195]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/robot/list 成功!
+[2023-02-15 17:43:53,195]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:43:55,961]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:43:55,964]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:44:51,540]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:44:51,542]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:44:51,824]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:44:51,826]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:44:51,826]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:44:51,828]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:44:51,878]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:44:51,881]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:45:50,222]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:45:50,225]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:46:18,732]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:46:18,734]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:46:19,020]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:46:19,022]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:46:19,023]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:46:19,025]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:46:19,200]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:46:19,202]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:46:20,393]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:46:20,863]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:46:20,863]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:46:22,681]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:46:23,396]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:46:23,396]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:46:24,625]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:46:25,013]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:46:25,014]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:51:36,666]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:51:36,668]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:51:36,952]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:51:36,954]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:51:36,955]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:51:36,957]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:51:36,999]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:51:37,002]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:51:37,652]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:51:37,883]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:51:37,884]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:51:38,530]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:51:38,741]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:51:38,741]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:51:39,265]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:51:39,485]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:51:39,485]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:52:20,638]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:52:20,640]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:52:20,926]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:52:20,928]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:52:20,928]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:52:20,930]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:52:20,990]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:52:20,992]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:52:21,725]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:52:21,950]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:52:21,950]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:52:22,661]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:52:22,902]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:52:22,903]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:52:23,525]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:52:23,728]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:52:23,729]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:52:37,070]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:52:37,072]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:52:37,356]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:52:37,358]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:52:37,358]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:52:37,361]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:52:37,420]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 17:52:37,423]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 17:52:38,027]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:52:38,289]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:52:38,289]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:52:38,955]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:52:39,171]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:52:39,171]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 17:52:39,729]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 17:52:39,944]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 17:52:39,944]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:03:13,972]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:03:13,974]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:03:14,278]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:03:14,280]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:03:14,281]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:03:14,283]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:03:14,333]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:03:14,336]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:03:14,973]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:03:15,191]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:03:15,191]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:03:15,812]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:03:16,029]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:03:16,029]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:03:16,674]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:03:16,878]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:03:16,879]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:04:02,643]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:04:02,645]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:04:02,909]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:04:02,911]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:04:02,911]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:04:02,914]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:04:02,993]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:04:02,996]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:04:02,999]-[test_robot_list.py]-[line:36]-INFO: all_data
+[2023-02-15 18:04:03,526]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:04:03,730]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:04:03,730]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:04:03,776]-[test_robot_list.py]-[line:36]-INFO: name_search
+[2023-02-15 18:04:04,614]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:04:04,860]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:04:04,861]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:04:04,870]-[test_robot_list.py]-[line:36]-INFO: search_size
+[2023-02-15 18:04:05,535]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:04:05,760]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:04:05,760]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:07:14,621]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:07:14,623]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:07:14,889]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:07:14,891]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:07:14,892]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:07:14,894]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:07:14,911]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:07:14,913]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:07:14,917]-[test_robot_list.py]-[line:36]-INFO: name
+[2023-02-15 18:07:15,513]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:07:15,712]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:07:15,713]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:07:15,761]-[test_robot_list.py]-[line:36]-INFO: current
+[2023-02-15 18:07:16,327]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:07:16,530]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:07:16,530]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:07:16,539]-[test_robot_list.py]-[line:36]-INFO: size
+[2023-02-15 18:07:17,164]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:07:17,366]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:07:17,366]-[Login.py]-[line:43]-ERROR: 获取cookie失败
+[2023-02-15 18:08:48,624]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:08:48,626]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:08:48,890]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:08:48,892]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:08:48,892]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:08:48,894]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:08:48,988]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:08:48,989]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:09:16,653]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:09:16,655]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:09:16,918]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:09:16,920]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:09:16,920]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:09:16,923]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:09:16,991]-[readConfig.py]-[line:18]-INFO: 正在读取配置文件中...
+[2023-02-15 18:09:16,993]-[readConfig.py]-[line:21]-INFO: 配置文件数据读取成功！
+[2023-02-15 18:09:17,585]-[Request.py]-[line:19]-INFO: Get请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/getImageCode?userName=cladmin 成功!
+[2023-02-15 18:09:17,792]-[Request.py]-[line:29]-INFO: Post请求接口：https://mrpa-test.ai-rtc.com:8082/plat/api/sys/login 成功!
+[2023-02-15 18:09:17,792]-[Login.py]-[line:43]-ERROR: 获取cookie失败

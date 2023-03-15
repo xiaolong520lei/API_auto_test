@@ -1,0 +1,44 @@
+robot_list_request_body:
+  query_data_api: /plat/api/project/list
+  create_project_api: /plat/api/project/save
+  update_project_api: /plat/api/project/update
+  delete_project_api: /plat/api/project/delete
+
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+query_data_payload:
+  {
+    pageIndex: 1,
+    pageSize: 10,
+    projectName: ""
+  }
+
+create_project_payload:
+  {
+    planEndTime: "2023-03-30 00:00:00",
+    planStartTime: "2023-02-24 00:00:00",
+    projectDesc: "auto test",
+    projectName: "sdasdf",
+    projectNum: "",
+  }
+
+update_project_payload:
+  {
+    "bid":"274584830017539",
+   "projectName":"sdasdf",
+   "principal":"kevin",
+   "principalId":2,
+   "planStartTime":"2023-02-24 00:00:00",
+   "planEndTime":"2023-03-30 00:00:00",
+   "projectDesc":"asdasd",
+   "projectNum":"274584830017538"
+  }
+
+delete_project_payload:
+  {
+    bid: 274584830017539
+  }

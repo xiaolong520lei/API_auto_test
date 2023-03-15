@@ -1,0 +1,20 @@
+# login 接口
+request_body:
+  api: /plat/api/sys/login
+  request_header: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+
+  payload:
+    right_account:
+      [ [ 163, 'cladmin','fefd0cbad5de5ca3eddad355835b8312' ] ]
+    wrong_account:
+      [ [ 163, 'cladmin','123423534' ] ]
+
+  right_account:
+    [ [ 123, 456 ],
+      [ sdf,sdf ],
+      [ asdf,34sdf ] ]
+  addf: sdfs

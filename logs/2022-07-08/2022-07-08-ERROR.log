@@ -1,0 +1,29 @@
+2022-07-08 11:11:07,369 - Log.py - [line:161] - ERROR : sdfsd
+NoneType: None
+2022-07-08 11:13:38,372 - Log.py - [line:161] - ERROR : sdfsd
+NoneType: None
+[2022-07-08 11:14:15,715] - [Log.py] - [line:161] - ERROR : sdfsd
+NoneType: None
+[2022-07-08 11:15:05,026]-[Log.py]-[line:161]-ERROR : sdfsd
+NoneType: None
+[2022-07-08 11:15:28,459]-[Log.py]-[line:161]-ERROR: sdfsd
+NoneType: None
+[2022-07-08 11:16:23,855]-[Log.py]-[line:161]-ERROR: sdfsd
+NoneType: None
+[2022-07-08 11:34:48,116]-[Request.py]-[line:11]-ERROR: Get请求接口：asdfasdads 出错! Invalid URL 'asdfasdads': No scheme supplied. Perhaps you meant http://asdfasdads?
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\Dataplat_API_auto_test\common\Request.py", line 8, in get_method
+    res = requests.get(url=url, params=pamars, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\sessions.py", line 453, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 318, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\Administrator\PycharmProjects\clpytest\venv\lib\site-packages\requests\models.py", line 392, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'asdfasdads': No scheme supplied. Perhaps you meant http://asdfasdads?

@@ -1,0 +1,1 @@
+[{"values":["WinServer 2016"],"name":"systemVersion"},{"values":["3.6.0"],"name":"pythonVersion"},{"values":["2.13.0"],"name":"allureVersion"},{"values":["http://192.168.1.x:8080"],"name":"baseUrl"},{"values":["test"],"name":"projectName"},{"values":["KevinC"],"name":"author"}]

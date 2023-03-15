@@ -1,0 +1,17 @@
+login_request_body:
+  api: /plat/api/sys/login
+  menu: /plat/api/menu/permission/tree
+  permission: /plat/api/menu/permission
+  request_header: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+                    'Content-Type': 'application/json;charset=UTF-8',
+                    'Cookie': 'SESSION=NWYzYTgxOGQtN2E2Ny00ODJjLWE4ZWQtNmFkNTAwNjAyMTJh'
+  }
+test_payload:
+  right_account:
+    [['cladmin','fefd0cbad5de5ca3eddad355835b8312']]
+  wrong_account:
+    [['cladmin','123423534']]
+  wrong_place:
+    [[167,'cladmin','123423534']]
+
