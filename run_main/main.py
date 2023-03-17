@@ -1,7 +1,7 @@
 import os
 import sys
 
-object_path = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
+object_path = os.path.abspath(os.path.join(os.getcwd(), '../'))
 if object_path not in sys.path:
     sys.path.append(object_path)
 
@@ -26,7 +26,7 @@ class AutoRunBaseInfo:
 
 
 if __name__ == '__main__':
-    # print(case_path)
+    # print(object_path)
     # pytest.main(['-vv', '-s', case_path, '--alluredir', allure_report_data_path]) #本地运行方式
     pytest.main(['-vv', '-s', case_path + '/test_login.py','--alluredir', allure_report_data_path]) #临时测试jenkins
     # allure_report.generate_report() #生成allure报告
