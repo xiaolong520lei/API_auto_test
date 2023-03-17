@@ -18,6 +18,8 @@ class AutoRunBaseInfo:
 
 
 if __name__ == '__main__':
-    pytest.main(['-vv', '-s', case_path, '--alluredir', allure_report_data_path])
-    allure_report.generate_report()
+    # print(case_path)
+    # pytest.main(['-vv', '-s', case_path, '--alluredir', allure_report_data_path]) #本地运行方式
+    pytest.main(['-vv', '-s', case_path + '/test_login.py']) #临时测试jenkins
+    # allure_report.generate_report() #生成allure报告
 
