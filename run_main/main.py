@@ -1,12 +1,15 @@
 import os
 import sys
-import pytest
-from common.readConfig import read_config
-from common import allure_report
 
 object_path = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
 if object_path not in sys.path:
     sys.path.append(object_path)
+
+import pytest
+from common.readConfig import read_config
+from common import allure_report
+
+
 
 environment_info = read_config()['environment']
 case_path = os.path.join(os.path.dirname(os.getcwd()), 'test_case')
