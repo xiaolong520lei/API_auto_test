@@ -1,0 +1,15 @@
+pipeline{
+    agent any
+    stages{
+        stage("first"){
+            steps {
+                sh 'python3 run_main/main.py'
+            }
+        }
+    }
+    post{
+        always{
+            echo 'always say goodbay'
+        }
+    }
+}
