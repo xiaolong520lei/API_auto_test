@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("first"){
             steps {
-                sh 'python3 run_main/main.py'
+                sh 'cd run_main && python3 main.py'
             }
         }
     }
