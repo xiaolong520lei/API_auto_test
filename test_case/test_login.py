@@ -9,6 +9,7 @@ import sys
 from common.Assert import AssertMethod
 from common.readConfig import read_config
 from common.Request import RequestMethod
+from common.md5_encode import pwd_md5_encode
 from run_main.main import AutoRunBaseInfo
 import pytest
 import allure
@@ -47,7 +48,8 @@ class TestLoginApi:
         log.info('验证图保存成功！')
         moveposx = get_location(big_pic_path, small_pic_path)
         log.info('获取拖图坐标成功')
-        json_data = {"movePosX": moveposx, "username": username, "password": password}
+        encode_password = pwd_md5_encode(password)
+        json_data = {"movePosX": moveposx, "username": username, "password": encode_password}
         r = res.post_method(url=f'{host}{api}', headers=headers, json=json_data)
         assertion.assert_equal(r.json()['code'], 200)
         log.info(f'测试完成！\n')

@@ -39,3 +39,6 @@ file_path = r'C:\Users\lei.chen10\Pictures\hongfa_big.jpg'
 #     pytest.main(['-vv', '-s'])
 
 
+with open('/Users/kevin/PycharmProjects/API_auto_test/logs/test.log','w') as f:
+    for i in range(100):
+        f.write(f'{i}:我是这个log中的每{i}行\n')

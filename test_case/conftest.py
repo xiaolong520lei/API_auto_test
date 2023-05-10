@@ -12,6 +12,8 @@ from common.Request import RequestMethod
 import ddddocr
 import os
 import base64
+
+from common.md5_encode import pwd_md5_encode
 from run_main.main import AutoRunBaseInfo
 from common.Log import log
 from common.readConfig import read_config
@@ -59,7 +61,8 @@ def get_cookie():
         save_image(big_pic_path, big_pic)
         save_image(small_pic_path, small_pic)
         moveposx = get_location(big_pic_path,small_pic_path)
-        json_data = {"movePosX": moveposx, "username": account_info['username'], "password": account_info['password']}
+        encode_password = pwd_md5_encode(account_info['password'])
+        json_data = {"movePosX": moveposx, "username": account_info['username'], "password": encode_password}
         r = res.post_method(url=f'{host}{login_api}', headers=login_header, json=json_data)
         if r.json()['code'] == 200:
             cookies = r.cookies

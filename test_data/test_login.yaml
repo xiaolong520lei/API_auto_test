@@ -9,7 +9,7 @@ login_request_body:
   }
 test_payload:
   right_account:
-    [['cladmin','fefd0cbad5de5ca3eddad355835b8312']]
+    [['cladmin','Aa13579..']]
   wrong_account:
     [['cladmin','123423534']]
   wrong_place:

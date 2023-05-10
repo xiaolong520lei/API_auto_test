@@ -17,7 +17,7 @@ environment:
 
 account:
       username: cladmin
-      password: fefd0cbad5de5ca3eddad355835b8312
+      password: Aa13579..
 
 login_api: /plat/api/sys/login
 
